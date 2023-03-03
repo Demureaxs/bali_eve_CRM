@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+// wedding schema for MongoDB
 const weddingSchema = new mongoose.Schema(
   {
     agent: String,
@@ -20,6 +21,7 @@ const weddingSchema = new mongoose.Schema(
     todos: [
       {
         task: String,
+        dateAdded: Date,
         deadline: Date,
         done: Boolean,
         default: false,
@@ -29,6 +31,8 @@ const weddingSchema = new mongoose.Schema(
   { collection: 'weddings' }
 );
 
+// create a new model from the mongoose model
 const Wedding = mongoose.model('Wedding', weddingSchema);
 
+// export wedding
 module.exports = Wedding;
