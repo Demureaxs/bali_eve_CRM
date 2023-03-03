@@ -19,15 +19,48 @@ function Overview(obj) {
   const formattedDate = formatDate(obj.date);
   // html template
   return html`
-    <div>
-      <h1>Agent: ${obj.agent}</h1>
-      <p>Wedding of: ${obj.name}</p>
-      <p>Email: ${obj.email}</p>
-      <p>Date: ${formattedDate}</p>
-      <p>Decoration: ${obj.decoration}</p>
-      <p>photographer: ${obj.photographer}</p>
-      <p>Videographer: ${obj.videographer}</p>
-      <p>Vendor Progress: ${obj.vendorProgress}</p>
+    <div class="space-y-4 bg-gray-400 w-1/2">
+      <section>
+        <h1>Agent: ${obj.agent}</h1>
+        <p>Wedding of: ${obj.name}</p>
+        <p>Email: ${obj.email}</p>
+        <p>Date: ${formattedDate}</p>
+        <p>Decoration: ${obj.decoration}</p>
+        <p>photographer: ${obj.photographer}</p>
+        <p>Videographer: ${obj.videographer}</p>
+        <p>Vendor Progress: ${obj.vendorProgress}</p>
+      </section>
+      <section>
+        <h2>Payment History:</h2>
+        <ul class="">
+          ${obj.payments
+            .map(payment => {
+              return html`
+                <div>
+                  <li>${formatDate(payment.date)}</li>
+                  <li>$${payment.amount}</li>
+                </div>
+              `;
+            })
+            .join(' ')}
+        </ul>
+      </section>
+      <section>
+        <h2>Tasks:</h2>
+        <ul>
+          ${obj.todos
+            .map(todo => {
+              return html`
+                <div>
+                  <li>Task: ${todo.task}</li>
+                  <li>Date Added: ${formatDate(todo.dateAdded)}</li>
+                  <li>Deadline: ${formatDate(todo.deadline)}</li>
+                </div>
+              `;
+            })
+            .join(' ')}
+        </ul>
+      </section>
     </div>
   `;
 }
