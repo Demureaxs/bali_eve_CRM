@@ -4,18 +4,18 @@
 class StateManagement {
   // constructor with two properties
   constructor() {
-    // state property for storing data from fetches
-    this.state = {};
+    // sets this. state to an empty string
+    this.state = '';
     // cache property to prevent unnecessary fetches
-    this.cache = {};
+    this.cache = '';
   }
 
   // fetchData function, takes the url as its arg
   async fetchData(apiUrl) {
     // check cache, if it exists...
-    if (this.cache[apiUrl]) {
+    if (this.cache) {
       // set this.state to spread state and spread cache
-      this.state = { ...this.state, ...this.cache[apiUrl] };
+      this.state = this.cache;
     }
 
     // otherwise response is await fetch
@@ -23,7 +23,7 @@ class StateManagement {
     // set data to the result of response to json format
     const data = await response.json();
     // spread this.state and data to this.state
-    this.state = { ...this.state, ...data };
+    this.state = await data;
   }
 }
 
