@@ -1,4 +1,76 @@
-(()=>{"use strict";const e=new class{constructor(){this.state="",this.cache=""}async fetchData(e){this.cache&&(this.state=this.cache);const t=await fetch(e),s=await t.json();this.state=await s}},t=String.raw;function s(e){return new Intl.DateTimeFormat("en-US",{weekday:"long",day:"numeric",month:"long",year:"numeric"}).format(new Date(e))}const a=String.raw,r=String.raw,o=String.raw,d=String.raw,n=String.raw,l=(String.raw,document.querySelector("#overview")),i=document.querySelector("#weddings"),c=document.querySelector("#paymentTimeline"),p=document.querySelector("#tasks"),g=document.querySelector("#addWedding"),m=document.querySelector("#editWedding"),v=document.querySelector("#appContainer");l.addEventListener("click",(async t=>{var r;await e.fetchData("../../data/mockData.json"),v.innerHTML=(r=e.state,console.log(r),a`
+/******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./src/js/components/AddWedding.js":
+/*!*****************************************!*\
+  !*** ./src/js/components/AddWedding.js ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const html = String.raw;
+
+// the Add Weddings Dashboard Return HTML
+function AddWeddingDashboard() {
+  return html`
+    <div>
+      <h1>I am the add weddings dashboard</h1>
+    </div>
+  `;
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AddWeddingDashboard);
+
+
+/***/ }),
+
+/***/ "./src/js/components/EditWedding.js":
+/*!******************************************!*\
+  !*** ./src/js/components/EditWedding.js ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const html = String.raw;
+
+function EditWeddingDashboard(obj) {
+  return html`
+    <div>
+      <h1>I am the edit weddings dashboard</h1>
+    </div>
+  `;
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (EditWeddingDashboard);
+
+
+/***/ }),
+
+/***/ "./src/js/components/Overview.js":
+/*!***************************************!*\
+  !*** ./src/js/components/Overview.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Weddings__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Weddings */ "./src/js/components/Weddings.js");
+const html = String.raw;
+
+
+
+// the Overview Dashboard Return HTML
+function OverviewDashboard(obj) {
+  return html`
     <section class="text-gray-700 space-y-4">
       <!-- Header Component -->
       <header class="flex justify-between items-center">
@@ -173,81 +245,386 @@
       <!-- Upcoming Weddings Section -->
       <h2 class="text-xl font-bold">Upcoming Weddings</h2>
       <section class="grid grid-cols-3 gap-4 h-[250px]">
-        ${r.sort(((e,t)=>new Date(e.date).getTime()-new Date(t.date).getTime())).slice(0,3).map((e=>a`
+        ${obj
+          .sort(
+            (a, b) => new Date(a.date).getTime() - new Date(b.date).getTime()
+          )
+          .slice(0, 3)
+          .map(wedding => {
+            // wedding overview container
+            // Returned html template
+            return html`
               <div
                 class=" rounded-lg bg-gradient-to-br from-slate-100 to-slate-200 border border-gray-200  shadow-lg p-6 flex items-start"
               >
                 <div class=" space-y-2 flex-1">
                   <h2>
-                    <span class="font-bold">Wedding:</span> ${e.name}
+                    <span class="font-bold">Wedding:</span> ${wedding.name}
                   </h2>
                   <p>
-                    <span class="font-bold">Date:</span> ${s(e.date)}
+                    <span class="font-bold">Date:</span> ${(0,_Weddings__WEBPACK_IMPORTED_MODULE_0__.formatDate)(
+                      wedding.date
+                    )}
                   </p>
-                  <p><span class="font-bold">Venue:</span> ${e.venue}</p>
+                  <p><span class="font-bold">Venue:</span> ${wedding.venue}</p>
                   <h2 class="font-bold pt-4">Upcoming Tasks:</h2>
                   <div class=" space-y-2">
-                    ${e.todos.sort(((e,t)=>e.deadline-t.deadline)).slice(0,2).map((e=>a`
+                    ${wedding.todos
+                      .sort((a, b) => a.deadline - b.deadline)
+                      .slice(0, 2)
+                      .map(todo => {
+                        return html`
                           <div class="space-y-2">
                             <p>
-                              <span class="font-bold">Task:</span> ${e.task}
+                              <span class="font-bold">Task:</span> ${todo.task}
                             </p>
                             <p>
                               <span class="font-bold">Deadline:</span>
-                              ${s(e.deadline)}
+                              ${(0,_Weddings__WEBPACK_IMPORTED_MODULE_0__.formatDate)(todo.deadline)}
                             </p>
                           </div>
-                        `)).join(" ")}
+                        `;
+                      })
+                      .join(' ')}
                   </div>
                 </div>
               </div>
-            `)).join(" ")}
+            `;
+          })
+          .join(' ')}
       </section>
     </section>
-  `)})),i.addEventListener("click",(async a=>{await e.fetchData("../../data/mockData.json"),v.innerHTML=e.state.sort(((e,t)=>new Date(e.date).getTime()-new Date(t.date).getTime())).map((e=>{return t`
+  `;
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (OverviewDashboard);
+
+
+/***/ }),
+
+/***/ "./src/js/components/PaymentTimeline.js":
+/*!**********************************************!*\
+  !*** ./src/js/components/PaymentTimeline.js ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../utilities/StateManagement */ "./src/js/utilities/StateManagement.js");
+/* harmony import */ var _Weddings__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Weddings */ "./src/js/components/Weddings.js");
+const html = String.raw;
+
+
+
+
+function PaymentTimelineDashboard(obj) {
+  return html`
     <div
       class="space-y-4 text-gray-900 bg-slate-200 p-6 rounded-lg mb-4 shadow-lg border border-gray-300"
     >
       <section class="space-y-2">
-        <h1>Planner: ${(a=e).agent}</h1>
-        <p>Wedding of: ${a.name}</p>
-        <p>Email: ${a.email}</p>
-        <p>Date: ${s(a.date)}</p>
-        <p>Decoration: ${a.decoration}</p>
-        <p>photographer: ${a.photographer}</p>
-        <p>Videographer: ${a.videographer}</p>
-        <p>Vendor Progress: ${a.vendorProgress}</p>
-      </section>
-    </div>
-  `;var a})).join("")})),c.addEventListener("click",(async t=>{await e.fetchData("../../data/mockData.json"),v.innerHTML="",v.innerHTML=e.state.sort(((e,t)=>new Date(e.date).getTime()-new Date(t.date).getTime())).map((e=>{return r`
-    <div
-      class="space-y-4 text-gray-900 bg-slate-200 p-6 rounded-lg mb-4 shadow-lg border border-gray-300"
-    >
-      <section class="space-y-2">
-        <h1>${(t=e).name}</h1>
-        <p>Wedding Date: ${s(t.date)}</p>
+        <h1>${obj.name}</h1>
+        <p>Wedding Date: ${(0,_Weddings__WEBPACK_IMPORTED_MODULE_1__.formatDate)(obj.date)}</p>
         <h3>Payments:</h3>
         <ul>
-          ${t.payments.map((e=>r`
+          ${obj.payments
+            .map(payment => {
+              return html`
                 <div>
-                  <li>${s(e.date)}</li>
-                  <li>$${e.amount}</li>
+                  <li>${(0,_Weddings__WEBPACK_IMPORTED_MODULE_1__.formatDate)(payment.date)}</li>
+                  <li>$${payment.amount}</li>
                 </div>
-              `)).join(" ")}
+              `;
+            })
+            .join(' ')}
         </ul>
       </section>
     </div>
-  `;var t})).join(" ")})),p.addEventListener("click",(async e=>{v.innerHTML=o`
+  `;
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (PaymentTimelineDashboard);
+
+
+/***/ }),
+
+/***/ "./src/js/components/Tasks.js":
+/*!************************************!*\
+  !*** ./src/js/components/Tasks.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const html = String.raw;
+
+// the Tasks Dashboard Return HTML
+function TasksDashboard() {
+  return html`
     <div>
       <h1>I am the tasks dashboard</h1>
     </div>
-  `})),g.addEventListener("click",(async e=>{v.innerHTML=d`
-    <div>
-      <h1>I am the add weddings dashboard</h1>
+  `;
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (TasksDashboard);
+
+
+/***/ }),
+
+/***/ "./src/js/components/Weddings.js":
+/*!***************************************!*\
+  !*** ./src/js/components/Weddings.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__),
+/* harmony export */   "formatDate": () => (/* binding */ formatDate)
+/* harmony export */ });
+
+const html = String.raw;
+
+// helper function to format the date
+function formatDate(date) {
+  const options = {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+  };
+  return new Intl.DateTimeFormat('en-US', options).format(new Date(date));
+}
+
+// this function returns the template html for the Overview page
+function WeddingsDashboard(obj) {
+  // html template
+  return html`
+    <div
+      class="space-y-4 text-gray-900 bg-slate-200 p-6 rounded-lg mb-4 shadow-lg border border-gray-300"
+    >
+      <section class="space-y-2">
+        <h1>Planner: ${obj.agent}</h1>
+        <p>Wedding of: ${obj.name}</p>
+        <p>Email: ${obj.email}</p>
+        <p>Date: ${formatDate(obj.date)}</p>
+        <p>Decoration: ${obj.decoration}</p>
+        <p>photographer: ${obj.photographer}</p>
+        <p>Videographer: ${obj.videographer}</p>
+        <p>Vendor Progress: ${obj.vendorProgress}</p>
+      </section>
     </div>
-  `})),m.addEventListener("click",(async e=>{v.innerHTML=n`
-    <div>
-      <h1>I am the edit weddings dashboard</h1>
-    </div>
-  `}))})();
+  `;
+}
+
+// export Overview for use in other elements
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (WeddingsDashboard);
+
+
+/***/ }),
+
+/***/ "./src/js/utilities/StateManagement.js":
+/*!*********************************************!*\
+  !*** ./src/js/utilities/StateManagement.js ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+
+
+// state management class and constructor
+class StateManagement {
+  // constructor with two properties
+  constructor() {
+    // sets this. state to an empty string
+    this.state = '';
+    // cache property to prevent unnecessary fetches
+    this.cache = '';
+  }
+
+  // fetchData function, takes the url as its arg
+  async fetchData(apiUrl) {
+    // check cache, if it exists...
+    if (this.cache) {
+      // set this.state to spread state and spread cache
+      this.state = this.cache;
+    }
+
+    // otherwise response is await fetch
+    const response = await fetch(apiUrl);
+    // set data to the result of response to json format
+    const data = await response.json();
+    // spread this.state and data to this.state
+    this.state = await data;
+  }
+}
+
+// create a new instance called all weddings
+const allWeddings = new StateManagement();
+
+// export allWeddings for use elsewhere
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (allWeddings);
+
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	// The module cache
+/******/ 	var __webpack_module_cache__ = {};
+/******/ 	
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/ 		// Check if module is in cache
+/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		if (cachedModule !== undefined) {
+/******/ 			return cachedModule.exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = __webpack_module_cache__[moduleId] = {
+/******/ 			// no module.id needed
+/******/ 			// no module.loaded needed
+/******/ 			exports: {}
+/******/ 		};
+/******/ 	
+/******/ 		// Execute the module function
+/******/ 		__webpack_modules__[moduleId](module, module.exports, __webpack_require__);
+/******/ 	
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/ 	
+/************************************************************************/
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
+/******/ 	(() => {
+/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/************************************************************************/
+var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+(() => {
+/*!*************************!*\
+  !*** ./src/js/index.js ***!
+  \*************************/
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utilities/StateManagement */ "./src/js/utilities/StateManagement.js");
+/* harmony import */ var _components_Overview__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Overview */ "./src/js/components/Overview.js");
+/* harmony import */ var _components_Weddings__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Weddings */ "./src/js/components/Weddings.js");
+/* harmony import */ var _components_PaymentTimeline__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./components/PaymentTimeline */ "./src/js/components/PaymentTimeline.js");
+/* harmony import */ var _components_Tasks__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./components/Tasks */ "./src/js/components/Tasks.js");
+/* harmony import */ var _components_AddWedding__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./components/AddWedding */ "./src/js/components/AddWedding.js");
+/* harmony import */ var _components_EditWedding__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/EditWedding */ "./src/js/components/EditWedding.js");
+
+// enables html syntax highlighting in template literals
+const html = String.raw;
+
+// State Management for the weddings api fetch
+
+
+// importing dashboard components
+
+
+
+
+
+
+
+// selectors for each of the side nav components
+const overviewNav = document.querySelector('#overview');
+const weddingsNav = document.querySelector('#weddings');
+const paymentTimelineNav = document.querySelector('#paymentTimeline');
+const tasksNav = document.querySelector('#tasks');
+const addWeddingNav = document.querySelector('#addWedding');
+const editWeddingNav = document.querySelector('#editWedding');
+
+// selector for the app container
+const appContainer = document.querySelector('#appContainer');
+
+// event listener for the overview section
+overviewNav.addEventListener('click', async e => {
+  await _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].fetchData('../../data/mockData.js');
+  // render the overview dashboard
+  appContainer.innerHTML = (0,_components_Overview__WEBPACK_IMPORTED_MODULE_1__["default"])(_utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].state);
+});
+
+// event listener for the allWeddings section
+weddingsNav.addEventListener('click', async e => {
+  // trigger the fetch method in the all weddings object
+  await _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].fetchData('../../data/mockData.js');
+  // iterate through the state property in all weddings
+  appContainer.innerHTML = _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].state.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+    // map weddings to the overview component
+    .map(wedding => (0,_components_Weddings__WEBPACK_IMPORTED_MODULE_2__["default"])(wedding))
+    // fix the commas
+    .join('');
+});
+
+// event listener for the paymentTimelineNav
+paymentTimelineNav.addEventListener('click', async e => {
+  // trigger the fetch method in the allWeddings object
+  await _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].fetchData('../../data/mockData.js');
+  // clear innerHTML for the app container
+  appContainer.innerHTML = '';
+  // set appContainer to the value of mapping weddings through
+  appContainer.innerHTML = _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].state.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
+    // map the weddings to the notifications component
+    .map(wedding => (0,_components_PaymentTimeline__WEBPACK_IMPORTED_MODULE_3__["default"])(wedding))
+    // fix the joining with commas
+    .join(' ');
+});
+
+// event listener for handling the triggering of tasksNav
+tasksNav.addEventListener('click', async e => {
+  // render in the Tasks Dashboard
+  appContainer.innerHTML = (0,_components_Tasks__WEBPACK_IMPORTED_MODULE_4__["default"])();
+});
+
+// event listener for triggering the addWeddings page
+addWeddingNav.addEventListener('click', async e => {
+  // render in the Add Weddings Dashboard
+  appContainer.innerHTML = (0,_components_AddWedding__WEBPACK_IMPORTED_MODULE_5__["default"])();
+});
+
+// event listener for editing weddings
+editWeddingNav.addEventListener('click', async e => {
+  // render in the Edit Weddings Dashboard
+  appContainer.innerHTML = (0,_components_EditWedding__WEBPACK_IMPORTED_MODULE_6__["default"])();
+});
+
+})();
+
+/******/ })()
+;
 //# sourceMappingURL=bundle.js.map

@@ -4,7 +4,6 @@ import { formatDate } from './Weddings';
 
 // the Overview Dashboard Return HTML
 function OverviewDashboard(obj) {
-  console.log(obj);
   return html`
     <section class="text-gray-700 space-y-4">
       <!-- Header Component -->
