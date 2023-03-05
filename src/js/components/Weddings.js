@@ -20,7 +20,7 @@ function WeddingsDashboard(obj) {
       class="space-y-4 text-gray-900 bg-slate-200 p-6 rounded-lg mb-4 shadow-lg border border-gray-300"
     >
       <section class="space-y-2">
-        <h1>Agent: ${obj.agent}</h1>
+        <h1>Planner: ${obj.agent}</h1>
         <p>Wedding of: ${obj.name}</p>
         <p>Email: ${obj.email}</p>
         <p>Date: ${formatDate(obj.date)}</p>

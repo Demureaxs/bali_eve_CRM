@@ -2,7 +2,7 @@
 // enables html syntax highlighting in template literals
 const html = String.raw;
 
-// base imports for required modules
+// State Management for the weddings api fetch
 import allWeddings from './utilities/StateManagement';
 
 // importing dashboard components
@@ -26,7 +26,7 @@ const appContainer = document.querySelector('#appContainer');
 
 // event listener for the overview section
 overviewNav.addEventListener('click', async e => {
-  await allWeddings.fetchData('./../data/mockData.json');
+  await allWeddings.fetchData('/data/mockData.json');
   // render the overview dashboard
   appContainer.innerHTML = OverviewDashboard(allWeddings.state);
 });
