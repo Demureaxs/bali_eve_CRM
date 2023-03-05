@@ -538,7 +538,6 @@ var __webpack_exports__ = {};
 /*!*************************!*\
   !*** ./src/js/index.js ***!
   \*************************/
-var __dirname = "/";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./utilities/StateManagement */ "./src/js/utilities/StateManagement.js");
 /* harmony import */ var _components_Overview__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/Overview */ "./src/js/components/Overview.js");
@@ -575,7 +574,7 @@ const appContainer = document.querySelector('#appContainer');
 
 // event listener for the overview section
 overviewNav.addEventListener('click', async e => {
-  await _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].fetchData('../data/mockData.json');
+  await _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].fetchData('./data/mockData.json');
   // render the overview dashboard
   appContainer.innerHTML = (0,_components_Overview__WEBPACK_IMPORTED_MODULE_1__["default"])(_utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].state);
 });
@@ -583,7 +582,7 @@ overviewNav.addEventListener('click', async e => {
 // event listener for the allWeddings section
 weddingsNav.addEventListener('click', async e => {
   // trigger the fetch method in the all weddings object
-  await _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].fetchData(__dirname + 'data/mockData.json');
+  await _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].fetchData('./data/mockData.json');
   // iterate through the state property in all weddings
   appContainer.innerHTML = _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].state.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
     // map weddings to the overview component
@@ -595,7 +594,7 @@ weddingsNav.addEventListener('click', async e => {
 // event listener for the paymentTimelineNav
 paymentTimelineNav.addEventListener('click', async e => {
   // trigger the fetch method in the allWeddings object
-  await _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].fetchData('data/mockData.json');
+  await _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].fetchData('./data/mockData.json');
   // clear innerHTML for the app container
   appContainer.innerHTML = '';
   // set appContainer to the value of mapping weddings through
