@@ -26,7 +26,7 @@ const appContainer = document.querySelector('#appContainer');
 
 // event listener for the overview section
 overviewNav.addEventListener('click', async e => {
-  await allWeddings.fetchData('../data/mockData.json');
+  await allWeddings.fetchData('./../data/mockData.json');
   // render the overview dashboard
   appContainer.innerHTML = OverviewDashboard(allWeddings.state);
 });
@@ -34,7 +34,7 @@ overviewNav.addEventListener('click', async e => {
 // event listener for the allWeddings section
 weddingsNav.addEventListener('click', async e => {
   // trigger the fetch method in the all weddings object
-  await allWeddings.fetchData('../data/mockData.json');
+  await allWeddings.fetchData('./../data/mockData.json');
   // iterate through the state property in all weddings
   appContainer.innerHTML = allWeddings.state
     // sort dates by date
@@ -48,7 +48,7 @@ weddingsNav.addEventListener('click', async e => {
 // event listener for the paymentTimelineNav
 paymentTimelineNav.addEventListener('click', async e => {
   // trigger the fetch method in the allWeddings object
-  await allWeddings.fetchData('../data/mockData.json');
+  await allWeddings.fetchData('./../data/mockData.json');
   // clear innerHTML for the app container
   appContainer.innerHTML = '';
   // set appContainer to the value of mapping weddings through
