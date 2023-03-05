@@ -26,8 +26,9 @@ const appContainer = document.querySelector('#appContainer');
 
 // event listener for the overview section
 overviewNav.addEventListener('click', async e => {
+  await allWeddings.fetchData('../data/mockData.json');
   // render the overview dashboard
-  appContainer.innerHTML = OverviewDashboard();
+  appContainer.innerHTML = OverviewDashboard(allWeddings.state);
 });
 
 // event listener for the allWeddings section
