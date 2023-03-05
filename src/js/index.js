@@ -4,11 +4,18 @@ const html = String.raw;
 
 // base imports for required modules
 import allWeddings from './utilities/StateManagement';
-import Overview from './components/Overview';
-import PaymentTimeline from './components/PaymentTimeline';
+
+// importing dashboard components
+import OverviewDashboard from './components/Overview';
+import WeddingsDashboard from './components/Weddings';
+import PaymentTimelineDashboard from './components/PaymentTimeline';
+import TasksDashboard from './components/Tasks';
+import AddWeddingDashboard from './components/AddWedding';
+import EditWeddingDashboard from './components/EditWedding';
 
 // selectors for each of the side nav components
 const overviewNav = document.querySelector('#overview');
+const weddingsNav = document.querySelector('#weddings');
 const paymentTimelineNav = document.querySelector('#paymentTimeline');
 const tasksNav = document.querySelector('#tasks');
 const addWeddingNav = document.querySelector('#addWedding');
@@ -19,15 +26,20 @@ const appContainer = document.querySelector('#appContainer');
 
 // event listener for the overview section
 overviewNav.addEventListener('click', async e => {
+  // render the overview dashboard
+  appContainer.innerHTML = OverviewDashboard();
+});
+
+// event listener for the allWeddings section
+weddingsNav.addEventListener('click', async e => {
   // trigger the fetch method in the all weddings object
   await allWeddings.fetchData('../data/mockData.json');
-
   // iterate through the state property in all weddings
   appContainer.innerHTML = allWeddings.state
     // sort dates by date
     .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
     // map weddings to the overview component
-    .map(wedding => Overview(wedding))
+    .map(wedding => WeddingsDashboard(wedding))
     // fix the commas
     .join('');
 });
@@ -43,11 +55,25 @@ paymentTimelineNav.addEventListener('click', async e => {
     // sort the weddings by date
     .sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
     // map the weddings to the notifications component
-    .map(wedding => PaymentTimeline(wedding))
+    .map(wedding => PaymentTimelineDashboard(wedding))
     // fix the joining with commas
     .join(' ');
 });
 
+// event listener for handling the triggering of tasksNav
 tasksNav.addEventListener('click', async e => {
-  console.log(e.target.id);
+  // render in the Tasks Dashboard
+  appContainer.innerHTML = TasksDashboard();
+});
+
+// event listener for triggering the addWeddings page
+addWeddingNav.addEventListener('click', async e => {
+  // render in the Add Weddings Dashboard
+  appContainer.innerHTML = AddWeddingDashboard();
+});
+
+// event listener for editing weddings
+editWeddingNav.addEventListener('click', async e => {
+  // render in the Edit Weddings Dashboard
+  appContainer.innerHTML = EditWeddingDashboard();
 });
