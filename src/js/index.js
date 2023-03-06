@@ -36,8 +36,8 @@ const modalContainer = document.querySelector('#modalContainer');
 
 // function to set the initial state of the app
 async function initialState() {
-  await allWeddings.fetchData('/bali_eve_CRM/data/mockData.json');
-  // await allWeddings.fetchData('../data/mockData.json');
+  // await allWeddings.fetchData('/bali_eve_CRM/data/mockData.json');
+  await allWeddings.fetchData('../data/mockData.json');
   appContainer.innerHTML = OverviewDashboard(allWeddings.state);
 }
 // calls the Initial State function.
@@ -48,10 +48,10 @@ initialState();
 // event listener for the overview section
 overviewNav.addEventListener('click', async e => {
   // github fetch
-  await allWeddings.fetchData('/bali_eve_CRM/data/mockData.json');
+  // await allWeddings.fetchData('/bali_eve_CRM/data/mockData.json');
 
   // development fetch
-  // await allWeddings.fetchData('../data/mockData.json');
+  await allWeddings.fetchData('../data/mockData.json');
 
   // render the overview dashboard
   appContainer.innerHTML = OverviewDashboard(allWeddings.state, e);
@@ -60,10 +60,10 @@ overviewNav.addEventListener('click', async e => {
 // event listener for the allWeddings section
 weddingsNav.addEventListener('click', async e => {
   // trigger the fetch method in the all weddings object for github
-  await allWeddings.fetchData('/bali_eve_CRM/data/mockData.json');
+  // await allWeddings.fetchData('/bali_eve_CRM/data/mockData.json');
 
   // trigger the fetch method in the all weddings object for development
-  // await allWeddings.fetchData('../data/mockData.json');
+  await allWeddings.fetchData('../data/mockData.json');
 
   // pass the state to the weddingsDashboard and render it
   appContainer.innerHTML = WeddingsDashboard(allWeddings.state, e);
@@ -74,10 +74,10 @@ weddingsNav.addEventListener('click', async e => {
 
 paymentTimelineNav.addEventListener('click', async e => {
   // trigger the fetch method in the allWeddings object github
-  await allWeddings.fetchData('/bali_eve_CRM/data/mockData.json');
+  // await allWeddings.fetchData('/bali_eve_CRM/data/mockData.json');
 
   // trigger the fetch method in the allWeddings object development
-  // await allWeddings.fetchData('../data/mockData.json');
+  await allWeddings.fetchData('../data/mockData.json');
 
   // clear innerHTML for the app container
   appContainer.innerHTML = '';

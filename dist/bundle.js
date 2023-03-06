@@ -951,8 +951,8 @@ const modalContainer = document.querySelector('#modalContainer');
 
 // function to set the initial state of the app
 async function initialState() {
-  await _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].fetchData('/bali_eve_CRM/data/mockData.json');
-  // await allWeddings.fetchData('../data/mockData.json');
+  // await allWeddings.fetchData('/bali_eve_CRM/data/mockData.json');
+  await _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].fetchData('../data/mockData.json');
   appContainer.innerHTML = (0,_components_Overview__WEBPACK_IMPORTED_MODULE_1__["default"])(_utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].state);
 }
 // calls the Initial State function.
@@ -963,10 +963,10 @@ initialState();
 // event listener for the overview section
 overviewNav.addEventListener('click', async e => {
   // github fetch
-  await _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].fetchData('/bali_eve_CRM/data/mockData.json');
+  // await allWeddings.fetchData('/bali_eve_CRM/data/mockData.json');
 
   // development fetch
-  // await allWeddings.fetchData('../data/mockData.json');
+  await _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].fetchData('../data/mockData.json');
 
   // render the overview dashboard
   appContainer.innerHTML = (0,_components_Overview__WEBPACK_IMPORTED_MODULE_1__["default"])(_utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].state, e);
@@ -975,10 +975,10 @@ overviewNav.addEventListener('click', async e => {
 // event listener for the allWeddings section
 weddingsNav.addEventListener('click', async e => {
   // trigger the fetch method in the all weddings object for github
-  await _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].fetchData('/bali_eve_CRM/data/mockData.json');
+  // await allWeddings.fetchData('/bali_eve_CRM/data/mockData.json');
 
   // trigger the fetch method in the all weddings object for development
-  // await allWeddings.fetchData('../data/mockData.json');
+  await _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].fetchData('../data/mockData.json');
 
   // pass the state to the weddingsDashboard and render it
   appContainer.innerHTML = (0,_components_Weddings__WEBPACK_IMPORTED_MODULE_2__["default"])(_utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].state, e);
@@ -989,10 +989,10 @@ weddingsNav.addEventListener('click', async e => {
 
 paymentTimelineNav.addEventListener('click', async e => {
   // trigger the fetch method in the allWeddings object github
-  await _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].fetchData('/bali_eve_CRM/data/mockData.json');
+  // await allWeddings.fetchData('/bali_eve_CRM/data/mockData.json');
 
   // trigger the fetch method in the allWeddings object development
-  // await allWeddings.fetchData('../data/mockData.json');
+  await _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].fetchData('../data/mockData.json');
 
   // clear innerHTML for the app container
   appContainer.innerHTML = '';
