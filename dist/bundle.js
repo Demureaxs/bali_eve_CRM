@@ -612,10 +612,10 @@ function WeddingModal(obj) {
             <div class="flex justify-between w-full">
               <h1><span class="font-semibold">Venue:</span> ${obj.venue}</h1>
               <div class="flex space-x-2">
-                <button class="bg-slate-300 p-2 rounded-sm text-sm">
+                <button class="bg-slate-300 px-2 py-1 rounded-sm text-sm">
                   Hide Checked Items
                 </button>
-                <button class="bg-slate-300 p-2 rounded-sm text-sm">
+                <button class="bg-slate-300 px-2 py-1 rounded-sm text-sm">
                   Delete
                 </button>
               </div>
@@ -654,7 +654,7 @@ function WeddingModal(obj) {
               <p>Final Payment</p>
             </div>
           </div>
-          <button class="text-sm p-2 ml-9 bg-slate-300 rounded-sm">
+          <button class="text-sm px-2 py-1 ml-9 bg-slate-300 rounded-sm">
             Add an item
           </button>
         </div>
@@ -951,7 +951,8 @@ const modalContainer = document.querySelector('#modalContainer');
 
 // function to set the initial state of the app
 async function initialState() {
-  await _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].fetchData('../data/mockData.json');
+  await _utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].fetchData('/bali_eve_CRM/data/mockData.json');
+  // await allWeddings.fetchData('../data/mockData.json');
   appContainer.innerHTML = (0,_components_Overview__WEBPACK_IMPORTED_MODULE_1__["default"])(_utilities_StateManagement__WEBPACK_IMPORTED_MODULE_0__["default"].state);
 }
 // calls the Initial State function.

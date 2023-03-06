@@ -36,7 +36,8 @@ const modalContainer = document.querySelector('#modalContainer');
 
 // function to set the initial state of the app
 async function initialState() {
-  await allWeddings.fetchData('../data/mockData.json');
+  await allWeddings.fetchData('/bali_eve_CRM/data/mockData.json');
+  // await allWeddings.fetchData('../data/mockData.json');
   appContainer.innerHTML = OverviewDashboard(allWeddings.state);
 }
 // calls the Initial State function.

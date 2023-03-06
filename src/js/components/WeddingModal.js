@@ -110,10 +110,10 @@ function WeddingModal(obj) {
             <div class="flex justify-between w-full">
               <h1><span class="font-semibold">Venue:</span> ${obj.venue}</h1>
               <div class="flex space-x-2">
-                <button class="bg-slate-300 p-2 rounded-sm text-sm">
+                <button class="bg-slate-300 px-2 py-1 rounded-sm text-sm">
                   Hide Checked Items
                 </button>
-                <button class="bg-slate-300 p-2 rounded-sm text-sm">
+                <button class="bg-slate-300 px-2 py-1 rounded-sm text-sm">
                   Delete
                 </button>
               </div>
@@ -152,7 +152,7 @@ function WeddingModal(obj) {
               <p>Final Payment</p>
             </div>
           </div>
-          <button class="text-sm p-2 ml-9 bg-slate-300 rounded-sm">
+          <button class="text-sm px-2 py-1 ml-9 bg-slate-300 rounded-sm">
             Add an item
           </button>
         </div>
