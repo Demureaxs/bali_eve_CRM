@@ -1,10 +1,12 @@
 [
   {
+    "_id": "123456789",
     "agent": "John Smith",
     "name": "Sarah & Tom",
     "email": "sarahandtom@example.com",
     "date": "2023-08-12T00:00:00.000Z",
     "venue": "The Grand Hotel",
+    "guests": "100",
     "decoration": "Floral arches and centerpieces",
     "photographer": "Emma Wilson Photography",
     "videographer": "Bright Light Films",
@@ -41,11 +43,13 @@
     ]
   },
   {
+    "_id": "234567891",
     "agent": "Emily Davis",
     "name": "Michael & Sophia",
     "email": "michaelandsophia@example.com",
     "date": "2023-09-22T00:00:00.000Z",
     "venue": "The Estate at Eagle Lake",
+    "guests": "120",
     "decoration": "Rustic and vintage decor",
     "photographer": "Daniel Johnson Photography",
     "videographer": "Clearview Cinema",
@@ -88,11 +92,13 @@
     ]
   },
   {
+    "_id": "345678912",
     "agent": "Alex Jones",
     "name": "Mark & Lisa",
     "email": "markandlisa@example.com",
     "date": "2023-10-15T00:00:00Z",
     "venue": "The Garden Venue",
+    "guests": "170",
     "decoration": "Vintage theme with pastel colors",
     "photographer": "Melissa Baker Photography",
     "videographer": "High Def Films",
@@ -129,11 +135,13 @@
     ]
   },
   {
+    "_id": "456789123",
     "agent": "Oliver Green",
     "name": "Liam & Ava",
     "email": "liamandava@example.com",
     "date": "2024-06-15T00:00:00.000Z",
     "venue": "The Plaza Hotel",
+    "guests": "200",
     "decoration": "Crystal chandeliers and pastel florals",
     "photographer": "Grace Lee Photography",
     "videographer": "Elevate Films",
@@ -174,11 +182,13 @@
     ]
   },
   {
+    "_id": "567891234",
     "agent": "Karen Lee",
     "name": "Kevin & Rachel",
     "email": "kevinandrachel@example.com",
     "date": "2023-11-18T00:00:00Z",
     "venue": "The Ritz Carlton",
+    "guests": "110",
     "decoration": "Modern and sleek design",
     "photographer": "David Kim Photography",
     "videographer": "Clearwater Films",
@@ -219,11 +229,13 @@
     ]
   },
   {
+    "_id": "6789123456",
     "agent": "Karen Lee",
     "name": "David & Emily",
     "email": "davidandemily@example.com",
     "date": "2023-11-05T00:00:00.000Z",
     "venue": "The Barn at Willow Creek",
+    "guests": "400",
     "decoration": "Rustic and autumn-themed decor",
     "photographer": "Taylor Smith Photography",
     "videographer": "Clear Blue Films",

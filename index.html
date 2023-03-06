@@ -16,7 +16,7 @@
     <title>Bali-Eve CRM</title>
   </head>
   <body>
-    <main class="flex max-w-screen-2xl mx-auto">
+    <main class="flex max-w-screen-2xl mx-auto relative">
       <header
         class="h-screen bg-gradient-to-br from-green-900 to-green-800 w-[300px] flex flex-col justify-between text-slate-100 rounded-l-xl"
       >
@@ -206,7 +206,12 @@
       <!-- Main app dashboard -->
       <section
         id="appContainer"
-        class="flex-1 h-screen bg-slate-100 p-4 overflow-y-scroll"
+        class="text-gray-700 flex-1 h-screen bg-slate-100 p-4 overflow-y-scroll grid-cols-2"
+      ></section>
+
+      <section
+        id="modalContainer"
+        class="absolute h-full w-full rounded-lg top-0 left-0 bg-gray-600/30 hidden items-center justify-center text-gray-700"
       ></section>
     </main>
   </body>
