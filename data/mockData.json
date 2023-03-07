@@ -311,6 +311,148 @@
             "completed": "true"
           }
         ]
+      },
+      {
+        "type": "Videographer",
+        "vendor": "Bareoods (OA)",
+        "tasks": [
+          {
+            "task": "Share Photos",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Photobooth",
+        "vendor": "HolloGrail",
+        "tasks": [
+          {
+            "task": "Share List",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Wedding Cake",
+        "vendor": "Sugar Legacy (OA)",
+        "tasks": [
+          {
+            "task": "Wedding Cake",
+            "completed": "true"
+          },
+          {
+            "task": "Share Photo Preference",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "RSVP",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Whatsapp and Name List",
+            "completed": "true"
+          },
+          {
+            "task": "Food Preferences",
+            "completed": "true"
+          },
+          {
+            "task": "Hours Highlight Groom",
+            "completed": "true"
+          },
+          {
+            "task": "Hours Highlight Bridal Party",
+            "completed": "true"
+          },
+          {
+            "task": "Send RSVP",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Guest Hotel",
+        "vendor": "Swissbell Pecatu (OA)",
+        "tasks": [
+          {
+            "task": "Price Per Room",
+            "completed": "true"
+          },
+          {
+            "task": "Price List",
+            "completed": "true"
+          },
+          {
+            "task": "Guest List",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Transport",
+        "vendor": "Bali Best Rental",
+        "tasks": [
+          {
+            "task": "Vehicle List",
+            "completed": "true"
+          },
+          {
+            "task": "Share Price List",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment ",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Transport",
+        "vendor": "Bali Best Rental",
+        "tasks": [
+          {
+            "task": "Manpower List",
+            "completed": "true"
+          }
+        ]
       }
     ],
     "payments": [
@@ -368,6 +510,448 @@
     "photographer": "Emma Wilson Photography",
     "videographer": "Bright Light Films",
     "vendorProgress": "Finalizing contracts with caterer and DJ",
+    "checklist": [
+      {
+        "type": "venue",
+        "vendor": "khayangan Estate",
+        "tasks": [
+          {
+            "task": "Venue Checking",
+            "completed": "true"
+          },
+          {
+            "task": "First Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Final Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "foodAndBeverage",
+        "vendor": "ABC Set Menu",
+        "tasks": [
+          {
+            "task": "Wedding Dinner",
+            "completed": "true"
+          },
+          {
+            "task": "Food Tasting",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment Wedding Dinner",
+            "completed": "true"
+          },
+          {
+            "task": "Final Payment Wedding Dinner",
+            "completed": "true"
+          },
+          {
+            "task": "Makanan Tambahan",
+            "completed": "true"
+          },
+          {
+            "task": "Payment Makanan Tambahan",
+            "completed": "true"
+          },
+          {
+            "task": "Tea Ceremony Food",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Decoration",
+        "vendor": "DSKETSA",
+        "tasks": [
+          {
+            "task": "Mood Board Concept",
+            "completed": "true"
+          },
+          {
+            "task": "Confirm Vendor",
+            "completed": "true"
+          },
+          {
+            "task": "First Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Moodboard Final",
+            "completed": "true"
+          },
+          {
+            "task": "Decoration Layout",
+            "completed": "true"
+          },
+          {
+            "task": "Seating Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Decoration Final Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Production",
+        "vendor": "Gloria Bali",
+        "tasks": [
+          {
+            "task": "Mood Board Concept",
+            "completed": "true"
+          },
+          {
+            "task": "Production Quote",
+            "completed": "true"
+          },
+          {
+            "task": "Effects (pyro)",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "MC",
+        "vendor": "Rani",
+        "tasks": [
+          {
+            "task": "Down Payment MC",
+            "completed": "true"
+          },
+          {
+            "task": "Forward List Bride and Groom",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment MC",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Ceremony",
+        "vendor": "Sylvester Church",
+        "tasks": [
+          {
+            "task": "Share List Document",
+            "completed": "true"
+          },
+          {
+            "task": "Priest / Celebrant",
+            "completed": "true"
+          },
+          {
+            "task": "Legal / Non-legal",
+            "completed": "true"
+          },
+          {
+            "task": "Choir / Chorniles",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment Priest / Celebrant",
+            "completed": "true"
+          },
+          {
+            "task": "Submit Documents",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment Priest / Celebrant",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Band",
+        "vendor": "SunnySide",
+        "tasks": [
+          {
+            "task": "Share Playlists",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Misc Talent",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Share Playlist",
+            "completed": "true"
+          },
+          {
+            "task": "Strings For Ceremony",
+            "vendor": "Bali Primavera",
+            "completed": "true"
+          },
+          {
+            "task": "Live Streaming",
+            "vendor": "AG Production",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Make Up Artist",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Share List",
+            "completed": "true"
+          },
+          {
+            "task": "Bride By",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Sister By",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Bridemaids By",
+            "vendor": "Cempaka Team (3 Persons)",
+            "completed": "true"
+          },
+          {
+            "task": "Brides Mother",
+            "vendor": "Loressa",
+            "completed": "true"
+          },
+          {
+            "task": "Groom Mother",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Gown And Suits",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Share List",
+            "completed": "true"
+          },
+          {
+            "task": "Bride By",
+            "vendor": "Yefta",
+            "completed": "true"
+          },
+          {
+            "task": "Mothers",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Sisters",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Bridemaids",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Groom",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Fathers",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Groomsman",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Videographer",
+        "vendor": "Bareoods (OA)",
+        "tasks": [
+          {
+            "task": "Share Photos",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Photobooth",
+        "vendor": "HolloGrail",
+        "tasks": [
+          {
+            "task": "Share List",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Wedding Cake",
+        "vendor": "Sugar Legacy (OA)",
+        "tasks": [
+          {
+            "task": "Wedding Cake",
+            "completed": "true"
+          },
+          {
+            "task": "Share Photo Preference",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "RSVP",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Whatsapp and Name List",
+            "completed": "true"
+          },
+          {
+            "task": "Food Preferences",
+            "completed": "true"
+          },
+          {
+            "task": "Hours Highlight Groom",
+            "completed": "true"
+          },
+          {
+            "task": "Hours Highlight Bridal Party",
+            "completed": "true"
+          },
+          {
+            "task": "Send RSVP",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Guest Hotel",
+        "vendor": "Swissbell Pecatu (OA)",
+        "tasks": [
+          {
+            "task": "Price Per Room",
+            "completed": "true"
+          },
+          {
+            "task": "Price List",
+            "completed": "true"
+          },
+          {
+            "task": "Guest List",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Transport",
+        "vendor": "Bali Best Rental",
+        "tasks": [
+          {
+            "task": "Vehicle List",
+            "completed": "true"
+          },
+          {
+            "task": "Share Price List",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment ",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Transport",
+        "vendor": "Bali Best Rental",
+        "tasks": [
+          {
+            "task": "Manpower List",
+            "completed": "true"
+          }
+        ]
+      }
+    ],
     "payments": [
       {
         "date": "2023-05-01T00:00:00.000Z",
@@ -413,6 +997,448 @@
     "photographer": "Daniel Johnson Photography",
     "videographer": "Clearview Cinema",
     "vendorProgress": "Finalizing menu with caterer",
+    "checklist": [
+      {
+        "type": "venue",
+        "vendor": "khayangan Estate",
+        "tasks": [
+          {
+            "task": "Venue Checking",
+            "completed": "true"
+          },
+          {
+            "task": "First Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Final Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "foodAndBeverage",
+        "vendor": "ABC Set Menu",
+        "tasks": [
+          {
+            "task": "Wedding Dinner",
+            "completed": "true"
+          },
+          {
+            "task": "Food Tasting",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment Wedding Dinner",
+            "completed": "true"
+          },
+          {
+            "task": "Final Payment Wedding Dinner",
+            "completed": "true"
+          },
+          {
+            "task": "Makanan Tambahan",
+            "completed": "true"
+          },
+          {
+            "task": "Payment Makanan Tambahan",
+            "completed": "true"
+          },
+          {
+            "task": "Tea Ceremony Food",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Decoration",
+        "vendor": "DSKETSA",
+        "tasks": [
+          {
+            "task": "Mood Board Concept",
+            "completed": "true"
+          },
+          {
+            "task": "Confirm Vendor",
+            "completed": "true"
+          },
+          {
+            "task": "First Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Moodboard Final",
+            "completed": "true"
+          },
+          {
+            "task": "Decoration Layout",
+            "completed": "true"
+          },
+          {
+            "task": "Seating Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Decoration Final Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Production",
+        "vendor": "Gloria Bali",
+        "tasks": [
+          {
+            "task": "Mood Board Concept",
+            "completed": "true"
+          },
+          {
+            "task": "Production Quote",
+            "completed": "true"
+          },
+          {
+            "task": "Effects (pyro)",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "MC",
+        "vendor": "Rani",
+        "tasks": [
+          {
+            "task": "Down Payment MC",
+            "completed": "true"
+          },
+          {
+            "task": "Forward List Bride and Groom",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment MC",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Ceremony",
+        "vendor": "Sylvester Church",
+        "tasks": [
+          {
+            "task": "Share List Document",
+            "completed": "true"
+          },
+          {
+            "task": "Priest / Celebrant",
+            "completed": "true"
+          },
+          {
+            "task": "Legal / Non-legal",
+            "completed": "true"
+          },
+          {
+            "task": "Choir / Chorniles",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment Priest / Celebrant",
+            "completed": "true"
+          },
+          {
+            "task": "Submit Documents",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment Priest / Celebrant",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Band",
+        "vendor": "SunnySide",
+        "tasks": [
+          {
+            "task": "Share Playlists",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Misc Talent",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Share Playlist",
+            "completed": "true"
+          },
+          {
+            "task": "Strings For Ceremony",
+            "vendor": "Bali Primavera",
+            "completed": "true"
+          },
+          {
+            "task": "Live Streaming",
+            "vendor": "AG Production",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Make Up Artist",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Share List",
+            "completed": "true"
+          },
+          {
+            "task": "Bride By",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Sister By",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Bridemaids By",
+            "vendor": "Cempaka Team (3 Persons)",
+            "completed": "true"
+          },
+          {
+            "task": "Brides Mother",
+            "vendor": "Loressa",
+            "completed": "true"
+          },
+          {
+            "task": "Groom Mother",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Gown And Suits",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Share List",
+            "completed": "true"
+          },
+          {
+            "task": "Bride By",
+            "vendor": "Yefta",
+            "completed": "true"
+          },
+          {
+            "task": "Mothers",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Sisters",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Bridemaids",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Groom",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Fathers",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Groomsman",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Videographer",
+        "vendor": "Bareoods (OA)",
+        "tasks": [
+          {
+            "task": "Share Photos",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Photobooth",
+        "vendor": "HolloGrail",
+        "tasks": [
+          {
+            "task": "Share List",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Wedding Cake",
+        "vendor": "Sugar Legacy (OA)",
+        "tasks": [
+          {
+            "task": "Wedding Cake",
+            "completed": "true"
+          },
+          {
+            "task": "Share Photo Preference",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "RSVP",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Whatsapp and Name List",
+            "completed": "true"
+          },
+          {
+            "task": "Food Preferences",
+            "completed": "true"
+          },
+          {
+            "task": "Hours Highlight Groom",
+            "completed": "true"
+          },
+          {
+            "task": "Hours Highlight Bridal Party",
+            "completed": "true"
+          },
+          {
+            "task": "Send RSVP",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Guest Hotel",
+        "vendor": "Swissbell Pecatu (OA)",
+        "tasks": [
+          {
+            "task": "Price Per Room",
+            "completed": "true"
+          },
+          {
+            "task": "Price List",
+            "completed": "true"
+          },
+          {
+            "task": "Guest List",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Transport",
+        "vendor": "Bali Best Rental",
+        "tasks": [
+          {
+            "task": "Vehicle List",
+            "completed": "true"
+          },
+          {
+            "task": "Share Price List",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment ",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Transport",
+        "vendor": "Bali Best Rental",
+        "tasks": [
+          {
+            "task": "Manpower List",
+            "completed": "true"
+          }
+        ]
+      }
+    ],
     "payments": [
       {
         "date": "2023-03-01T00:00:00.000Z",
@@ -464,6 +1490,448 @@
     "photographer": "Melissa Baker Photography",
     "videographer": "High Def Films",
     "vendorProgress": "Menu tasting with caterer scheduled",
+    "checklist": [
+      {
+        "type": "venue",
+        "vendor": "khayangan Estate",
+        "tasks": [
+          {
+            "task": "Venue Checking",
+            "completed": "true"
+          },
+          {
+            "task": "First Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Final Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "foodAndBeverage",
+        "vendor": "ABC Set Menu",
+        "tasks": [
+          {
+            "task": "Wedding Dinner",
+            "completed": "true"
+          },
+          {
+            "task": "Food Tasting",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment Wedding Dinner",
+            "completed": "true"
+          },
+          {
+            "task": "Final Payment Wedding Dinner",
+            "completed": "true"
+          },
+          {
+            "task": "Makanan Tambahan",
+            "completed": "true"
+          },
+          {
+            "task": "Payment Makanan Tambahan",
+            "completed": "true"
+          },
+          {
+            "task": "Tea Ceremony Food",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Decoration",
+        "vendor": "DSKETSA",
+        "tasks": [
+          {
+            "task": "Mood Board Concept",
+            "completed": "true"
+          },
+          {
+            "task": "Confirm Vendor",
+            "completed": "true"
+          },
+          {
+            "task": "First Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Moodboard Final",
+            "completed": "true"
+          },
+          {
+            "task": "Decoration Layout",
+            "completed": "true"
+          },
+          {
+            "task": "Seating Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Decoration Final Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Production",
+        "vendor": "Gloria Bali",
+        "tasks": [
+          {
+            "task": "Mood Board Concept",
+            "completed": "true"
+          },
+          {
+            "task": "Production Quote",
+            "completed": "true"
+          },
+          {
+            "task": "Effects (pyro)",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "MC",
+        "vendor": "Rani",
+        "tasks": [
+          {
+            "task": "Down Payment MC",
+            "completed": "true"
+          },
+          {
+            "task": "Forward List Bride and Groom",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment MC",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Ceremony",
+        "vendor": "Sylvester Church",
+        "tasks": [
+          {
+            "task": "Share List Document",
+            "completed": "true"
+          },
+          {
+            "task": "Priest / Celebrant",
+            "completed": "true"
+          },
+          {
+            "task": "Legal / Non-legal",
+            "completed": "true"
+          },
+          {
+            "task": "Choir / Chorniles",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment Priest / Celebrant",
+            "completed": "true"
+          },
+          {
+            "task": "Submit Documents",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment Priest / Celebrant",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Band",
+        "vendor": "SunnySide",
+        "tasks": [
+          {
+            "task": "Share Playlists",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Misc Talent",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Share Playlist",
+            "completed": "true"
+          },
+          {
+            "task": "Strings For Ceremony",
+            "vendor": "Bali Primavera",
+            "completed": "true"
+          },
+          {
+            "task": "Live Streaming",
+            "vendor": "AG Production",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Make Up Artist",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Share List",
+            "completed": "true"
+          },
+          {
+            "task": "Bride By",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Sister By",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Bridemaids By",
+            "vendor": "Cempaka Team (3 Persons)",
+            "completed": "true"
+          },
+          {
+            "task": "Brides Mother",
+            "vendor": "Loressa",
+            "completed": "true"
+          },
+          {
+            "task": "Groom Mother",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Gown And Suits",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Share List",
+            "completed": "true"
+          },
+          {
+            "task": "Bride By",
+            "vendor": "Yefta",
+            "completed": "true"
+          },
+          {
+            "task": "Mothers",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Sisters",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Bridemaids",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Groom",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Fathers",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Groomsman",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Videographer",
+        "vendor": "Bareoods (OA)",
+        "tasks": [
+          {
+            "task": "Share Photos",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Photobooth",
+        "vendor": "HolloGrail",
+        "tasks": [
+          {
+            "task": "Share List",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Wedding Cake",
+        "vendor": "Sugar Legacy (OA)",
+        "tasks": [
+          {
+            "task": "Wedding Cake",
+            "completed": "true"
+          },
+          {
+            "task": "Share Photo Preference",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "RSVP",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Whatsapp and Name List",
+            "completed": "true"
+          },
+          {
+            "task": "Food Preferences",
+            "completed": "true"
+          },
+          {
+            "task": "Hours Highlight Groom",
+            "completed": "true"
+          },
+          {
+            "task": "Hours Highlight Bridal Party",
+            "completed": "true"
+          },
+          {
+            "task": "Send RSVP",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Guest Hotel",
+        "vendor": "Swissbell Pecatu (OA)",
+        "tasks": [
+          {
+            "task": "Price Per Room",
+            "completed": "true"
+          },
+          {
+            "task": "Price List",
+            "completed": "true"
+          },
+          {
+            "task": "Guest List",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Transport",
+        "vendor": "Bali Best Rental",
+        "tasks": [
+          {
+            "task": "Vehicle List",
+            "completed": "true"
+          },
+          {
+            "task": "Share Price List",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment ",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Transport",
+        "vendor": "Bali Best Rental",
+        "tasks": [
+          {
+            "task": "Manpower List",
+            "completed": "true"
+          }
+        ]
+      }
+    ],
     "payments": [
       {
         "date": "2023-05-01T00:00:00Z",
@@ -509,6 +1977,448 @@
     "photographer": "Grace Lee Photography",
     "videographer": "Elevate Films",
     "vendorProgress": "Waiting for final approval from florist",
+    "checklist": [
+      {
+        "type": "venue",
+        "vendor": "khayangan Estate",
+        "tasks": [
+          {
+            "task": "Venue Checking",
+            "completed": "true"
+          },
+          {
+            "task": "First Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Final Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "foodAndBeverage",
+        "vendor": "ABC Set Menu",
+        "tasks": [
+          {
+            "task": "Wedding Dinner",
+            "completed": "true"
+          },
+          {
+            "task": "Food Tasting",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment Wedding Dinner",
+            "completed": "true"
+          },
+          {
+            "task": "Final Payment Wedding Dinner",
+            "completed": "true"
+          },
+          {
+            "task": "Makanan Tambahan",
+            "completed": "true"
+          },
+          {
+            "task": "Payment Makanan Tambahan",
+            "completed": "true"
+          },
+          {
+            "task": "Tea Ceremony Food",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Decoration",
+        "vendor": "DSKETSA",
+        "tasks": [
+          {
+            "task": "Mood Board Concept",
+            "completed": "true"
+          },
+          {
+            "task": "Confirm Vendor",
+            "completed": "true"
+          },
+          {
+            "task": "First Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Moodboard Final",
+            "completed": "true"
+          },
+          {
+            "task": "Decoration Layout",
+            "completed": "true"
+          },
+          {
+            "task": "Seating Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Decoration Final Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Production",
+        "vendor": "Gloria Bali",
+        "tasks": [
+          {
+            "task": "Mood Board Concept",
+            "completed": "true"
+          },
+          {
+            "task": "Production Quote",
+            "completed": "true"
+          },
+          {
+            "task": "Effects (pyro)",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "MC",
+        "vendor": "Rani",
+        "tasks": [
+          {
+            "task": "Down Payment MC",
+            "completed": "true"
+          },
+          {
+            "task": "Forward List Bride and Groom",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment MC",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Ceremony",
+        "vendor": "Sylvester Church",
+        "tasks": [
+          {
+            "task": "Share List Document",
+            "completed": "true"
+          },
+          {
+            "task": "Priest / Celebrant",
+            "completed": "true"
+          },
+          {
+            "task": "Legal / Non-legal",
+            "completed": "true"
+          },
+          {
+            "task": "Choir / Chorniles",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment Priest / Celebrant",
+            "completed": "true"
+          },
+          {
+            "task": "Submit Documents",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment Priest / Celebrant",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Band",
+        "vendor": "SunnySide",
+        "tasks": [
+          {
+            "task": "Share Playlists",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Misc Talent",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Share Playlist",
+            "completed": "true"
+          },
+          {
+            "task": "Strings For Ceremony",
+            "vendor": "Bali Primavera",
+            "completed": "true"
+          },
+          {
+            "task": "Live Streaming",
+            "vendor": "AG Production",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Make Up Artist",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Share List",
+            "completed": "true"
+          },
+          {
+            "task": "Bride By",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Sister By",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Bridemaids By",
+            "vendor": "Cempaka Team (3 Persons)",
+            "completed": "true"
+          },
+          {
+            "task": "Brides Mother",
+            "vendor": "Loressa",
+            "completed": "true"
+          },
+          {
+            "task": "Groom Mother",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Gown And Suits",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Share List",
+            "completed": "true"
+          },
+          {
+            "task": "Bride By",
+            "vendor": "Yefta",
+            "completed": "true"
+          },
+          {
+            "task": "Mothers",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Sisters",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Bridemaids",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Groom",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Fathers",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Groomsman",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Videographer",
+        "vendor": "Bareoods (OA)",
+        "tasks": [
+          {
+            "task": "Share Photos",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Photobooth",
+        "vendor": "HolloGrail",
+        "tasks": [
+          {
+            "task": "Share List",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Wedding Cake",
+        "vendor": "Sugar Legacy (OA)",
+        "tasks": [
+          {
+            "task": "Wedding Cake",
+            "completed": "true"
+          },
+          {
+            "task": "Share Photo Preference",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "RSVP",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Whatsapp and Name List",
+            "completed": "true"
+          },
+          {
+            "task": "Food Preferences",
+            "completed": "true"
+          },
+          {
+            "task": "Hours Highlight Groom",
+            "completed": "true"
+          },
+          {
+            "task": "Hours Highlight Bridal Party",
+            "completed": "true"
+          },
+          {
+            "task": "Send RSVP",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Guest Hotel",
+        "vendor": "Swissbell Pecatu (OA)",
+        "tasks": [
+          {
+            "task": "Price Per Room",
+            "completed": "true"
+          },
+          {
+            "task": "Price List",
+            "completed": "true"
+          },
+          {
+            "task": "Guest List",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Transport",
+        "vendor": "Bali Best Rental",
+        "tasks": [
+          {
+            "task": "Vehicle List",
+            "completed": "true"
+          },
+          {
+            "task": "Share Price List",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment ",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Transport",
+        "vendor": "Bali Best Rental",
+        "tasks": [
+          {
+            "task": "Manpower List",
+            "completed": "true"
+          }
+        ]
+      }
+    ],
     "payments": [
       {
         "date": "2023-12-01T00:00:00.000Z",
@@ -558,6 +2468,448 @@
     "photographer": "David Kim Photography",
     "videographer": "Clearwater Films",
     "vendorProgress": "Booking cake and floral vendors",
+    "checklist": [
+      {
+        "type": "venue",
+        "vendor": "khayangan Estate",
+        "tasks": [
+          {
+            "task": "Venue Checking",
+            "completed": "true"
+          },
+          {
+            "task": "First Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Final Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "foodAndBeverage",
+        "vendor": "ABC Set Menu",
+        "tasks": [
+          {
+            "task": "Wedding Dinner",
+            "completed": "true"
+          },
+          {
+            "task": "Food Tasting",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment Wedding Dinner",
+            "completed": "true"
+          },
+          {
+            "task": "Final Payment Wedding Dinner",
+            "completed": "true"
+          },
+          {
+            "task": "Makanan Tambahan",
+            "completed": "true"
+          },
+          {
+            "task": "Payment Makanan Tambahan",
+            "completed": "true"
+          },
+          {
+            "task": "Tea Ceremony Food",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Decoration",
+        "vendor": "DSKETSA",
+        "tasks": [
+          {
+            "task": "Mood Board Concept",
+            "completed": "true"
+          },
+          {
+            "task": "Confirm Vendor",
+            "completed": "true"
+          },
+          {
+            "task": "First Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Moodboard Final",
+            "completed": "true"
+          },
+          {
+            "task": "Decoration Layout",
+            "completed": "true"
+          },
+          {
+            "task": "Seating Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Decoration Final Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Production",
+        "vendor": "Gloria Bali",
+        "tasks": [
+          {
+            "task": "Mood Board Concept",
+            "completed": "true"
+          },
+          {
+            "task": "Production Quote",
+            "completed": "true"
+          },
+          {
+            "task": "Effects (pyro)",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "MC",
+        "vendor": "Rani",
+        "tasks": [
+          {
+            "task": "Down Payment MC",
+            "completed": "true"
+          },
+          {
+            "task": "Forward List Bride and Groom",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment MC",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Ceremony",
+        "vendor": "Sylvester Church",
+        "tasks": [
+          {
+            "task": "Share List Document",
+            "completed": "true"
+          },
+          {
+            "task": "Priest / Celebrant",
+            "completed": "true"
+          },
+          {
+            "task": "Legal / Non-legal",
+            "completed": "true"
+          },
+          {
+            "task": "Choir / Chorniles",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment Priest / Celebrant",
+            "completed": "true"
+          },
+          {
+            "task": "Submit Documents",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment Priest / Celebrant",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Band",
+        "vendor": "SunnySide",
+        "tasks": [
+          {
+            "task": "Share Playlists",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Misc Talent",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Share Playlist",
+            "completed": "true"
+          },
+          {
+            "task": "Strings For Ceremony",
+            "vendor": "Bali Primavera",
+            "completed": "true"
+          },
+          {
+            "task": "Live Streaming",
+            "vendor": "AG Production",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Make Up Artist",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Share List",
+            "completed": "true"
+          },
+          {
+            "task": "Bride By",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Sister By",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Bridemaids By",
+            "vendor": "Cempaka Team (3 Persons)",
+            "completed": "true"
+          },
+          {
+            "task": "Brides Mother",
+            "vendor": "Loressa",
+            "completed": "true"
+          },
+          {
+            "task": "Groom Mother",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Gown And Suits",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Share List",
+            "completed": "true"
+          },
+          {
+            "task": "Bride By",
+            "vendor": "Yefta",
+            "completed": "true"
+          },
+          {
+            "task": "Mothers",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Sisters",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Bridemaids",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Groom",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Fathers",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Groomsman",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Videographer",
+        "vendor": "Bareoods (OA)",
+        "tasks": [
+          {
+            "task": "Share Photos",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Photobooth",
+        "vendor": "HolloGrail",
+        "tasks": [
+          {
+            "task": "Share List",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Wedding Cake",
+        "vendor": "Sugar Legacy (OA)",
+        "tasks": [
+          {
+            "task": "Wedding Cake",
+            "completed": "true"
+          },
+          {
+            "task": "Share Photo Preference",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "RSVP",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Whatsapp and Name List",
+            "completed": "true"
+          },
+          {
+            "task": "Food Preferences",
+            "completed": "true"
+          },
+          {
+            "task": "Hours Highlight Groom",
+            "completed": "true"
+          },
+          {
+            "task": "Hours Highlight Bridal Party",
+            "completed": "true"
+          },
+          {
+            "task": "Send RSVP",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Guest Hotel",
+        "vendor": "Swissbell Pecatu (OA)",
+        "tasks": [
+          {
+            "task": "Price Per Room",
+            "completed": "true"
+          },
+          {
+            "task": "Price List",
+            "completed": "true"
+          },
+          {
+            "task": "Guest List",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Transport",
+        "vendor": "Bali Best Rental",
+        "tasks": [
+          {
+            "task": "Vehicle List",
+            "completed": "true"
+          },
+          {
+            "task": "Share Price List",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment ",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Transport",
+        "vendor": "Bali Best Rental",
+        "tasks": [
+          {
+            "task": "Manpower List",
+            "completed": "true"
+          }
+        ]
+      }
+    ],
     "payments": [
       {
         "date": "2023-05-01T00:00:00Z",
