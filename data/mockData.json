@@ -1,5 +1,360 @@
 [
   {
+    "_id": "6789123456",
+    "agent": "Karen Lee",
+    "name": "David & Emily",
+    "email": "davidandemily@example.com",
+    "date": "2023-11-05T00:00:00.000Z",
+    "venue": "The Barn at Willow Creek",
+    "guests": "400",
+    "foodAndBeverage": "ABC Set Menu",
+    "decoration": "Rustic and autumn-themed decor",
+    "production": "I Love Lights",
+    "photographer": "Taylor Smith Photography",
+    "videographer": "Clear Blue Films",
+    "vendorProgress": "Finalizing floral arrangements with florist",
+    "checklist": [
+      {
+        "type": "venue",
+        "vendor": "khayangan Estate",
+        "tasks": [
+          {
+            "task": "Venue Checking",
+            "completed": "true"
+          },
+          {
+            "task": "First Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Final Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "foodAndBeverage",
+        "vendor": "ABC Set Menu",
+        "tasks": [
+          {
+            "task": "Wedding Dinner",
+            "completed": "true"
+          },
+          {
+            "task": "Food Tasting",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment Wedding Dinner",
+            "completed": "true"
+          },
+          {
+            "task": "Final Payment Wedding Dinner",
+            "completed": "true"
+          },
+          {
+            "task": "Makanan Tambahan",
+            "completed": "true"
+          },
+          {
+            "task": "Payment Makanan Tambahan",
+            "completed": "true"
+          },
+          {
+            "task": "Tea Ceremony Food",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Decoration",
+        "vendor": "DSKETSA",
+        "tasks": [
+          {
+            "task": "Mood Board Concept",
+            "completed": "true"
+          },
+          {
+            "task": "Confirm Vendor",
+            "completed": "true"
+          },
+          {
+            "task": "First Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Moodboard Final",
+            "completed": "true"
+          },
+          {
+            "task": "Decoration Layout",
+            "completed": "true"
+          },
+          {
+            "task": "Seating Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Decoration Final Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Production",
+        "vendor": "Gloria Bali",
+        "tasks": [
+          {
+            "task": "Mood Board Concept",
+            "completed": "true"
+          },
+          {
+            "task": "Production Quote",
+            "completed": "true"
+          },
+          {
+            "task": "Effects (pyro)",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "MC",
+        "vendor": "Rani",
+        "tasks": [
+          {
+            "task": "Down Payment MC",
+            "completed": "true"
+          },
+          {
+            "task": "Forward List Bride and Groom",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment MC",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Ceremony",
+        "vendor": "Sylvester Church",
+        "tasks": [
+          {
+            "task": "Share List Document",
+            "completed": "true"
+          },
+          {
+            "task": "Priest / Celebrant",
+            "completed": "true"
+          },
+          {
+            "task": "Legal / Non-legal",
+            "completed": "true"
+          },
+          {
+            "task": "Choir / Chorniles",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment Priest / Celebrant",
+            "completed": "true"
+          },
+          {
+            "task": "Submit Documents",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment Priest / Celebrant",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Band",
+        "vendor": "SunnySide",
+        "tasks": [
+          {
+            "task": "Share Playlists",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Misc Talent",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Share Playlist",
+            "completed": "true"
+          },
+          {
+            "task": "Strings For Ceremony",
+            "vendor": "Bali Primavera",
+            "completed": "true"
+          },
+          {
+            "task": "Live Streaming",
+            "vendor": "AG Production",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Make Up Artist",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Share List",
+            "completed": "true"
+          },
+          {
+            "task": "Bride By",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Sister By",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Bridemaids By",
+            "vendor": "Cempaka Team (3 Persons)",
+            "completed": "true"
+          },
+          {
+            "task": "Brides Mother",
+            "vendor": "Loressa",
+            "completed": "true"
+          },
+          {
+            "task": "Groom Mother",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      },
+      {
+        "type": "Gown And Suits",
+        "vendor": "",
+        "tasks": [
+          {
+            "task": "Share List",
+            "completed": "true"
+          },
+          {
+            "task": "Bride By",
+            "vendor": "Yefta",
+            "completed": "true"
+          },
+          {
+            "task": "Mothers",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Sisters",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Bridemaids",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Groom",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Fathers",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Groomsman",
+            "vendor": "Own Arrangement",
+            "completed": "true"
+          },
+          {
+            "task": "Down Payment",
+            "completed": "true"
+          },
+          {
+            "task": "Full Payment",
+            "completed": "true"
+          }
+        ]
+      }
+    ],
+    "payments": [
+      {
+        "date": "2023-05-15T00:00:00.000Z",
+        "amount": 1500
+      },
+      {
+        "date": "2023-09-15T00:00:00.000Z",
+        "amount": 3000
+      }
+    ],
+    "todos": [
+      {
+        "task": "Send out invitations",
+        "dateAdded": "2023-06-01T00:00:00.000Z",
+        "deadline": "2023-08-01T00:00:00.000Z",
+        "done": false,
+        "default": false
+      },
+      {
+        "task": "Confirm menu with caterer",
+        "dateAdded": "2023-03-15T00:00:00.000Z",
+        "deadline": "2023-10-15T00:00:00.000Z",
+        "done": true,
+        "default": false
+      },
+      {
+        "task": "Finalize ceremony music",
+        "dateAdded": "2023-02-01T00:00:00.000Z",
+        "deadline": "2023-10-15T00:00:00.000Z",
+        "done": false,
+        "default": false
+      },
+      {
+        "task": "Book wedding day transportation",
+        "dateAdded": "2023-01-01T00:00:00.000Z",
+        "deadline": "2023-11-01T00:00:00.000Z",
+        "done": false,
+        "default": false
+      }
+    ]
+  },
+  {
     "_id": "123456789",
     "agent": "John Smith",
     "name": "Sarah & Tom",
@@ -7,6 +362,8 @@
     "date": "2023-08-12T00:00:00.000Z",
     "venue": "The Grand Hotel",
     "guests": "100",
+    "foodAndBeverage": "ABC Set Menu",
+    "production": "I Love Lights",
     "decoration": "Floral arches and centerpieces",
     "photographer": "Emma Wilson Photography",
     "videographer": "Bright Light Films",
@@ -50,6 +407,8 @@
     "date": "2023-09-22T00:00:00.000Z",
     "venue": "The Estate at Eagle Lake",
     "guests": "120",
+    "foodAndBeverage": "ABC Set Menu",
+    "production": "I Love Lights",
     "decoration": "Rustic and vintage decor",
     "photographer": "Daniel Johnson Photography",
     "videographer": "Clearview Cinema",
@@ -99,7 +458,9 @@
     "date": "2023-10-15T00:00:00Z",
     "venue": "The Garden Venue",
     "guests": "170",
+    "foodAndBeverage": "ABC Set Menu",
     "decoration": "Vintage theme with pastel colors",
+    "production": "I Love Lights",
     "photographer": "Melissa Baker Photography",
     "videographer": "High Def Films",
     "vendorProgress": "Menu tasting with caterer scheduled",
@@ -142,7 +503,9 @@
     "date": "2024-06-15T00:00:00.000Z",
     "venue": "The Plaza Hotel",
     "guests": "200",
+    "foodAndBeverage": "ABC Set Menu",
     "decoration": "Crystal chandeliers and pastel florals",
+    "production": "I Love Lights",
     "photographer": "Grace Lee Photography",
     "videographer": "Elevate Films",
     "vendorProgress": "Waiting for final approval from florist",
@@ -189,7 +552,9 @@
     "date": "2023-11-18T00:00:00Z",
     "venue": "The Ritz Carlton",
     "guests": "110",
+    "foodAndBeverage": "ABC Set Menu",
     "decoration": "Modern and sleek design",
+    "production": "I Love Lights",
     "photographer": "David Kim Photography",
     "videographer": "Clearwater Films",
     "vendorProgress": "Booking cake and floral vendors",
@@ -225,59 +590,6 @@
         "dateAdded": "2023-01-01T00:00:00Z",
         "deadline": "2023-10-31T00:00:00Z",
         "done": true
-      }
-    ]
-  },
-  {
-    "_id": "6789123456",
-    "agent": "Karen Lee",
-    "name": "David & Emily",
-    "email": "davidandemily@example.com",
-    "date": "2023-11-05T00:00:00.000Z",
-    "venue": "The Barn at Willow Creek",
-    "guests": "400",
-    "decoration": "Rustic and autumn-themed decor",
-    "photographer": "Taylor Smith Photography",
-    "videographer": "Clear Blue Films",
-    "vendorProgress": "Finalizing floral arrangements with florist",
-    "payments": [
-      {
-        "date": "2023-05-15T00:00:00.000Z",
-        "amount": 1500
-      },
-      {
-        "date": "2023-09-15T00:00:00.000Z",
-        "amount": 3000
-      }
-    ],
-    "todos": [
-      {
-        "task": "Send out invitations",
-        "dateAdded": "2023-06-01T00:00:00.000Z",
-        "deadline": "2023-08-01T00:00:00.000Z",
-        "done": false,
-        "default": false
-      },
-      {
-        "task": "Confirm menu with caterer",
-        "dateAdded": "2023-03-15T00:00:00.000Z",
-        "deadline": "2023-10-15T00:00:00.000Z",
-        "done": true,
-        "default": false
-      },
-      {
-        "task": "Finalize ceremony music",
-        "dateAdded": "2023-02-01T00:00:00.000Z",
-        "deadline": "2023-10-15T00:00:00.000Z",
-        "done": false,
-        "default": false
-      },
-      {
-        "task": "Book wedding day transportation",
-        "dateAdded": "2023-01-01T00:00:00.000Z",
-        "deadline": "2023-11-01T00:00:00.000Z",
-        "done": false,
-        "default": false
       }
     ]
   }

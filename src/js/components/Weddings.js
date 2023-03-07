@@ -28,8 +28,6 @@ export function formatDate(date) {
 function closeModal(e) {
   // make sure the click is not happening inside the modal
   if (e.target.closest('.modal-content')) {
-    e.preventDefault();
-    e.stopPropagation();
     return;
   }
 
