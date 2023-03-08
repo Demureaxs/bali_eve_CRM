@@ -4,6 +4,7 @@ const WebpackObfuscator = require('webpack-obfuscator');
 module.exports = {
   mode: 'production',
   entry: './src/js/index.js',
+
   output: {
     filename: 'bundle.js',
   },
