@@ -15,7 +15,7 @@
     "vendorProgress": "Finalizing floral arrangements with florist",
     "checklist": [
       {
-        "type": "venue",
+        "type": "Venue",
         "vendor": "khayangan Estate",
         "tasks": [
           {
@@ -33,7 +33,7 @@
         ]
       },
       {
-        "type": "foodAndBeverage",
+        "type": "Food And Beverage",
         "vendor": "ABC Set Menu",
         "tasks": [
           {

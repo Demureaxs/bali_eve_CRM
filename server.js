@@ -5,9 +5,12 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const dotenv = require('dotenv');
 const weddingRoutes = require('./backend/routes/weddingRoutes');
+const compression = require('compression');
 
 // reqiuring in database to initiate connection
 const db = require('./backend/utils/database');
+
+app.use(compression());
 
 // setting the static routes
 app.use(express.static(path.join(__dirname)));

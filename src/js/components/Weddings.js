@@ -40,7 +40,7 @@ function closeModal(e) {
 //---------------------------------- Event Listeners -----------------------------------------
 
 // helperfunction to add the wedding event listeners post render
-export function addWeddingListeners() {
+function addWeddingListeners() {
   document.querySelectorAll('.weddingContainer').forEach(wedding =>
     wedding.addEventListener('click', e => {
       const weddingContainer = e.target.closest('.weddingContainer');
@@ -69,6 +69,11 @@ export function addWeddingListeners() {
 
 // this function returns the template html for the Overview page
 function WeddingsDashboard(obj, e) {
+  // add wedding event listeners after html renders
+  setTimeout(() => {
+    addWeddingListeners();
+  }, 0);
+
   // return mapping the object
   return html` <section class="space-y-4">
     <!-- Renders In the header -->
