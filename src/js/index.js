@@ -31,7 +31,7 @@ const editWeddingNav = document.querySelector('#editWedding');
 const appContainer = document.querySelector('#appContainer');
 // selector for the Modal Container
 const modalContainer = document.querySelector('#modalContainer');
-
+let me = 0;
 //---------------------------------- Helper Functions -----------------------------------------
 
 // function to set the initial state of the app
