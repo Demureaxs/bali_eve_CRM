@@ -22,9 +22,9 @@ function UpcomingWeddings(obj) {
             // Returned html template
             return html`
               <div
-                class=" rounded-lg bg-gradient-to-br from-slate-100 to-slate-200 border border-gray-200  shadow-lg p-6 flex items-start"
+                class="rounded-lg bg-gradient-to-br from-slate-100 to-slate-200 border border-gray-200  shadow-lg p-6 flex items-start"
               >
-                <div class=" space-y-2 flex-1">
+                <div class="space-y-2 flex-1">
                   <h2>
                     <span class="font-bold">Wedding:</span> ${wedding.name}
                   </h2>
@@ -35,6 +35,7 @@ function UpcomingWeddings(obj) {
                   </p>
                   <p><span class="font-bold">Venue:</span> ${wedding.venue}</p>
                   <h2 class="font-bold pt-4">Upcoming Tasks:</h2>
+
                   <div class=" space-y-2">
                     ${wedding.todos
                       .sort((a, b) => a.deadline - b.deadline)

@@ -1,4 +1,29 @@
-function a0_0x3f61(){const _0x4d0af2=['#weddings','getItem','state','tasks','closest','278928GCeRPu','target','#editWedding','replace','map','agent','click','true','log','decoration','vendorProgress','bg-blue-500','92068dSrege','143196stuuge','.weddingContainer','innerText','filter','toLowerCase','deadline','input[type=\x22checkbox\x22]','flex','Bar','#tasks','amount','length','venue','format','forEach','long','#addWedding','email','addEventListener','querySelectorAll','completed','40wJWpeT','slice','#appContainer','numeric','Date','style','checked','json','join','cache','#modalContainer','#btn','hidden','task','toFixed','#overview','#numberContainer','15504aRwJsm','_id','1677725dsooKP','raw','Progress','classList','vendor','date','../data/mockData.json','checklist','en-US','innerHTML','removeEventListener','width','sort','2160264PDIRHG','querySelector','684939VfMRcb','getTime','type','fetchData','name'];a0_0x3f61=function(){return _0x4d0af2;};return a0_0x3f61();}function a0_0x1010(_0x184e3c,_0x23a7e7){const _0x3f61ae=a0_0x3f61();return a0_0x1010=function(_0x1010a6,_0x5e0171){_0x1010a6=_0x1010a6-0x69;let _0x2ca6c8=_0x3f61ae[_0x1010a6];return _0x2ca6c8;},a0_0x1010(_0x184e3c,_0x23a7e7);}(function(_0xdbcd57,_0x5d9a18){const _0x478b84=a0_0x1010,_0x2fbe0d=_0xdbcd57();while(!![]){try{const _0x17fe09=parseInt(_0x478b84(0x87))/0x1+parseInt(_0x478b84(0xa2))/0x2+parseInt(_0x478b84(0x98))/0x3+-parseInt(_0x478b84(0xae))/0x4*(parseInt(_0x478b84(0x76))/0x5)+-parseInt(_0x478b84(0xaf))/0x6+parseInt(_0x478b84(0x89))/0x7+-parseInt(_0x478b84(0x96))/0x8;if(_0x17fe09===_0x5d9a18)break;else _0x2fbe0d['push'](_0x2fbe0d['shift']());}catch(_0x13f5f4){_0x2fbe0d['push'](_0x2fbe0d['shift']());}}}(a0_0x3f61,0x23619),((()=>{'use strict';const _0x5d64c6=a0_0x1010;const _0x45640b=new class{constructor(){const _0x538d38=a0_0x1010;this['state']='',this[_0x538d38(0x7f)]='';}async[_0x5d64c6(0x9b)](_0x21f98c){const _0x2569e4=_0x5d64c6;this[_0x2569e4(0x7f)]&&(this[_0x2569e4(0x9f)]=this[_0x2569e4(0x7f)]);const _0xea46ca=await fetch(_0x21f98c),_0x52cd21=await _0xea46ca[_0x2569e4(0x7d)]();this[_0x2569e4(0x9f)]=await _0x52cd21;}}(),_0x2b6cef=String['raw'],_0x19a6e2=function(_0x33a669){return _0x2b6cef`
+function a0_0x2e77(_0x7ae143,_0x20462b){const _0x1d8d3f=a0_0x1d8d();return a0_0x2e77=function(_0x2e7751,_0x5da6d8){_0x2e7751=_0x2e7751-0x1c7;let _0x12c14c=_0x1d8d3f[_0x2e7751];return _0x12c14c;},a0_0x2e77(_0x7ae143,_0x20462b);}(function(_0x45a153,_0x235cd3){const _0x4e7635=a0_0x2e77,_0xcd2a19=_0x45a153();while(!![]){try{const _0x445110=parseInt(_0x4e7635(0x1e6))/0x1*(-parseInt(_0x4e7635(0x20f))/0x2)+-parseInt(_0x4e7635(0x220))/0x3*(parseInt(_0x4e7635(0x1f5))/0x4)+parseInt(_0x4e7635(0x1f4))/0x5*(parseInt(_0x4e7635(0x1df))/0x6)+parseInt(_0x4e7635(0x22e))/0x7*(-parseInt(_0x4e7635(0x1e1))/0x8)+-parseInt(_0x4e7635(0x224))/0x9*(parseInt(_0x4e7635(0x1fc))/0xa)+parseInt(_0x4e7635(0x1ed))/0xb*(-parseInt(_0x4e7635(0x22c))/0xc)+parseInt(_0x4e7635(0x22a))/0xd;if(_0x445110===_0x235cd3)break;else _0xcd2a19['push'](_0xcd2a19['shift']());}catch(_0x27af75){_0xcd2a19['push'](_0xcd2a19['shift']());}}}(a0_0x1d8d,0x4fce4),((()=>{'use strict';const _0x5cea32=a0_0x2e77;var _0x32cc97={'./src/js/components/AddWedding.js':(_0x186d5a,_0x34dc6f,_0x4b25fc)=>{const _0x707556=a0_0x2e77;_0x4b25fc['r'](_0x34dc6f),_0x4b25fc['d'](_0x34dc6f,{'default':()=>_0x261ab7});var _0x113c7f=_0x4b25fc(_0x707556(0x1db));const _0x515c7c=String[_0x707556(0x207)],_0x261ab7=function(_0x5e3357){const _0x5c059a=_0x707556;return _0x515c7c`
+    <div>
+      <p>${_0x113c7f[_0x5c059a(0x1e2)]}</p>
+      <h1>I am the add weddings dashboard</h1>
+    </div>
+  `;};},'./src/js/components/EditWedding.js':(_0x283a70,_0x324efa,_0x5e873a)=>{const _0x5506eb=a0_0x2e77;_0x5e873a['r'](_0x324efa),_0x5e873a['d'](_0x324efa,{'default':()=>_0x396b41});const _0x2ad425=String[_0x5506eb(0x207)],_0x354544={'name':_0x5506eb(0x22d)},_0x396b41=function(_0x1bed36){let _0x50f7e6,_0xd4c7e9=_0x354544['name'];function _0x2ffddc(){const _0x40c4f4=a0_0x2e77;_0xd4c7e9[_0x40c4f4(0x1da)]=document[_0x40c4f4(0x206)](_0x40c4f4(0x1d8))['value'],console[_0x40c4f4(0x1f1)](_0xd4c7e9[_0x40c4f4(0x1da)]);}function _0x9865fd(){const _0x509601=a0_0x2e77;_0xd4c7e9['name']=document[_0x509601(0x206)]('#input')['value'],console['log'](_0xd4c7e9['name']);}function _0x44db1d(){const _0x243385=a0_0x2e77;document[_0x243385(0x206)](_0x243385(0x210))[_0x243385(0x1fe)]=_0x243385(0x201);}return setTimeout(()=>{const _0x18f59b=a0_0x2e77;document[_0x18f59b(0x206)](_0x18f59b(0x1d8))[_0x18f59b(0x21c)](_0x18f59b(0x1f7),_0x9865fd),_0xd4c7e9=function(_0x224d30,_0x31f346){const _0x45f466=_0x18f59b,_0x49b471=document[_0x45f466(0x206)](_0x31f346);return new Proxy({'value':_0x224d30},{'set':(_0x1cd825,_0x57349a,_0x274344)=>(_0x1cd825[_0x57349a]=_0x274344,_0x49b471[_0x45f466(0x1fe)]=_0x274344,!0x0)});}(_0x354544,_0x18f59b(0x210)),_0x50f7e6=document[_0x18f59b(0x206)]('#button'),_0x50f7e6['addEventListener'](_0x18f59b(0x232),_0x2ffddc),document['querySelector'](_0x18f59b(0x204))[_0x18f59b(0x21c)]('click',_0x44db1d);},0x0),_0x2ad425`
+    <div>
+      <h1 id="header">${_0xd4c7e9}</h1>
+      <!-- using optional chaining operator -->
+      <input id="input" type="text" value="${_0xd4c7e9}" />
+      <button id="button">Click me</button>
+
+      <button id="buttonTwo">I will insert something</button>
+    </div>
+  `;};},'./src/js/components/Overview.js':(_0x3cd68c,_0x1e41cb,_0x44417f)=>{const _0xf209cd=a0_0x2e77;_0x44417f['r'](_0x1e41cb),_0x44417f['d'](_0x1e41cb,{'default':()=>_0x204fd5});var _0x2a5505=_0x44417f(_0xf209cd(0x21f)),_0xbec0ec=_0x44417f(_0xf209cd(0x238)),_0x44717b=_0x44417f(_0xf209cd(0x1c9));const _0x560396=String[_0xf209cd(0x207)],_0x204fd5=function(_0x5b6401,_0x2f8040){const _0x369256=_0xf209cd;return _0x560396`
+    <section class="text-gray-700 space-y-4">
+      <!-- Header Component -->
+      ${(0x0,_0x2a5505[_0x369256(0x22f)])(_0x369256(0x230))}
+
+      <!-- Task Overview Component -->
+      ${(0x0,_0xbec0ec[_0x369256(0x22f)])()}
+
+      <!-- Upcoming Weddings Section -->
+      ${(0x0,_0x44717b[_0x369256(0x22f)])(_0x5b6401)}
+    </section>
+  `;};},'./src/js/components/OverviewComponents/Header.js':(_0x56f859,_0x1c0d44,_0x495659)=>{const _0x32315d=a0_0x2e77;_0x495659['r'](_0x1c0d44),_0x495659['d'](_0x1c0d44,{'default':()=>_0x18eb90});const _0x391f68=String[_0x32315d(0x207)],_0x18eb90=function(_0x350713){return _0x391f68`
     <header class="flex justify-between items-center">
       <!-- Current page Component -->
       <div class="flex items-center space-x-2">
@@ -17,7 +42,7 @@ function a0_0x3f61(){const _0x4d0af2=['#weddings','getItem','state','tasks','clo
           />
         </svg>
         <!-- Page Title -->
-        <h2 class="text-xl font-bold">${_0x33a669}</h2>
+        <h2 class="text-xl font-bold">${_0x350713}</h2>
       </div>
 
       <!-- Affiliated Users Component -->
@@ -41,7 +66,7 @@ function a0_0x3f61(){const _0x4d0af2=['#weddings','getItem','state','tasks','clo
         </div>
       </div>
     </header>
-  `;},_0xda3f=String[_0x5d64c6(0x8a)],_0x55e0c7=function(){return _0xda3f`
+  `;};},'./src/js/components/OverviewComponents/TaskOverview.js':(_0x5dfd64,_0x22146e,_0xc3ff4a)=>{const _0x43b103=a0_0x2e77;_0xc3ff4a['r'](_0x22146e),_0xc3ff4a['d'](_0x22146e,{'default':()=>_0x3d8522});const _0x381a23=String[_0x43b103(0x207)],_0x3d8522=function(){return _0x381a23`
     <section class="flex gap-4 h-[280px]">
       <div class="h-full flex-1 grid grid-rows-2 grid-cols-2 gap-4">
         <!-- Micro Task Component (Total) -->
@@ -166,7 +191,78 @@ function a0_0x3f61(){const _0x4d0af2=['#weddings','getItem','state','tasks','clo
         </div>
       </div>
     </section>
-  `;},_0x145026=String['raw'],_0x374359=function(_0x1965cd){const _0x57bf66=_0x5d64c6;return setTimeout(()=>{const _0x8f56cf=a0_0x1010;_0x1965cd['checklist'][_0x8f56cf(0xa6)](_0xe52a1e=>function(_0xf38c0a){const _0x5540f9=_0x8f56cf;let _0x1d1cd6=document['querySelectorAll']('input[type=\x22checkbox\x22]'+_0xf38c0a),_0x54b83b=0x0;for(let _0x112ea8=0x0;_0x112ea8<_0x1d1cd6[_0x5540f9(0x6c)];_0x112ea8++)_0x1d1cd6[_0x112ea8][_0x5540f9(0x7c)]&&_0x54b83b++;document['querySelectorAll'](_0x5540f9(0xb5)+_0xf38c0a)[_0x5540f9(0x6f)](_0x43b5b7=>_0x43b5b7['addEventListener'](_0x5540f9(0xa8),_0xb2be62=>{const _0x4a0040=_0x5540f9;_0xb2be62['target'][_0x4a0040(0x7c)]?_0x54b83b++:_0x54b83b--;let _0xd5ed28=document[_0x4a0040(0x74)](_0x4a0040(0xb5)+_0xf38c0a)[_0x4a0040(0x6c)],_0x40bd1a=_0x54b83b/_0xd5ed28;document[_0x4a0040(0x97)]('#'+_0xf38c0a['slice'](0x1)+'PercentageCompleted')[_0x4a0040(0xb1)]=(0x64*_0x40bd1a)['toFixed'](0x0)+'%',document['querySelector']('#'+_0xf38c0a[_0x4a0040(0x77)](0x1)+_0x4a0040(0x69))[_0x4a0040(0x7b)][_0x4a0040(0x94)]=(0x64*_0x40bd1a)[_0x4a0040(0x84)](0x0)+'%',_0x40bd1a>0x63&&document['querySelector']('#'+_0xf38c0a['slice'](0x1)+_0x4a0040(0x69))[_0x4a0040(0x8c)][_0x4a0040(0xa5)](_0x4a0040(0xad),'bg-green-500');}));}('.'+_0xe52a1e['type']['toLowerCase']()[_0x8f56cf(0xa5)](/\s/g,'')+_0x8f56cf(0x8b)));},0x0),console[_0x57bf66(0xaa)](_0x1965cd),_0x145026`
+  `;};},'./src/js/components/OverviewComponents/UpcomingWeddings.js':(_0x3edd50,_0x2a99ba,_0x26c5e0)=>{const _0x78e2d3=a0_0x2e77;_0x26c5e0['r'](_0x2a99ba),_0x26c5e0['d'](_0x2a99ba,{'default':()=>_0x1f4fcf});var _0x4e37c0=_0x26c5e0(_0x78e2d3(0x20e));const _0x1c5366=String['raw'],_0x1f4fcf=function(_0xfd8768){const _0x2db508=_0x78e2d3;return _0x1c5366`
+    <div>
+      <h2 class="text-xl font-bold py-6">Upcoming Weddings</h2>
+      <section class="grid grid-cols-3 gap-4 h-[250px]">
+        ${_0xfd8768[_0x2db508(0x22b)]((_0xcf94fe,_0x4ddb78)=>new Date(_0xcf94fe[_0x2db508(0x1d5)])[_0x2db508(0x1d7)]()-new Date(_0x4ddb78['date'])[_0x2db508(0x1d7)]())[_0x2db508(0x235)](0x0,0x3)[_0x2db508(0x229)](_0x7cd67c=>_0x1c5366`
+              <div
+                class="rounded-lg bg-gradient-to-br from-slate-100 to-slate-200 border border-gray-200  shadow-lg p-6 flex items-start"
+              >
+                <div class="space-y-2 flex-1">
+                  <h2>
+                    <span class="font-bold">Wedding:</span> ${_0x7cd67c[_0x2db508(0x1da)]}
+                  </h2>
+                  <p>
+                    <span class="font-bold">Date:</span> ${(0x0,_0x4e37c0[_0x2db508(0x223)])(_0x7cd67c['date'])}
+                  </p>
+                  <p><span class="font-bold">Venue:</span> ${_0x7cd67c[_0x2db508(0x1ea)]}</p>
+                  <h2 class="font-bold pt-4">Upcoming Tasks:</h2>
+
+                  <div class=" space-y-2">
+                    ${_0x7cd67c[_0x2db508(0x1d6)][_0x2db508(0x22b)]((_0x53db85,_0xc77121)=>_0x53db85[_0x2db508(0x236)]-_0xc77121[_0x2db508(0x236)])[_0x2db508(0x235)](0x0,0x2)[_0x2db508(0x229)](_0xebc99e=>_0x1c5366`
+                          <div class="space-y-2">
+                            <p>
+                              <span class="font-bold">Task:</span> ${_0xebc99e[_0x2db508(0x1eb)]}
+                            </p>
+                            <p>
+                              <span class="font-bold">Deadline:</span>
+                              ${(0x0,_0x4e37c0['formatDate'])(_0xebc99e[_0x2db508(0x236)])}
+                            </p>
+                          </div>
+                        `)['join']('\x20')}
+                  </div>
+                </div>
+              </div>
+            `)[_0x2db508(0x1d3)]('\x20')}
+      </section>
+    </div>
+  `;};},'./src/js/components/PaymentTimeline.js':(_0x4ab3d0,_0x44ec6b,_0x549844)=>{const _0x56de04=a0_0x2e77;_0x549844['r'](_0x44ec6b),_0x549844['d'](_0x44ec6b,{'default':()=>_0x12f0a0}),_0x549844(_0x56de04(0x219));var _0x917fab=_0x549844(_0x56de04(0x21f)),_0x9caae0=_0x549844('./src/js/components/Weddings.js');const _0x2bd4ef=String[_0x56de04(0x207)],_0x12f0a0=function(_0x2dc2a4,_0x2306e0){const _0x3c6310=_0x56de04;return _0x2bd4ef`
+    <div class="space-y-4">
+      ${(0x0,_0x917fab[_0x3c6310(0x22f)])(_0x2306e0['target']['innerText'])}
+      ${_0x2dc2a4['sort']((_0x99ef4c,_0x2a6653)=>new Date(_0x99ef4c['Date'])-new Date(_0x2a6653['date']))[_0x3c6310(0x229)](_0x384346=>_0x2bd4ef` <!-- Rendering In The Payment Components -->
+              <div
+                class="space-y-4 bg-slate-200 p-6 rounded-lg mb-4  bg-gradient-to-br from-slate-100 to-slate-200 border border-gray-200  shadow-lg"
+              >
+                <section class="space-y-2">
+                  <h1>Wedding of: ${_0x384346['name']}</h1>
+                  <p>Wedding Date: ${(0x0,_0x9caae0['formatDate'])(_0x384346[_0x3c6310(0x1d5)])}</p>
+                  <h3>Payments:</h3>
+                  <ul>
+                    ${_0x384346[_0x3c6310(0x21e)]['map'](_0x139f93=>_0x2bd4ef`
+                          <div>
+                            <li>${(0x0,_0x9caae0['formatDate'])(_0x139f93['date'])}</li>
+                            <li>$${_0x139f93[_0x3c6310(0x1d4)]}</li>
+                          </div>
+                        `)[_0x3c6310(0x1d3)]('\x20')}
+                  </ul>
+                </section>
+              </div>`)[_0x3c6310(0x1d3)]('\x20')}
+    </div>
+  `;};},'./src/js/components/Tasks.js':(_0x4e0fe7,_0x3e505c,_0x495b56)=>{const _0x25d186=a0_0x2e77;_0x495b56['r'](_0x3e505c),_0x495b56['d'](_0x3e505c,{'default':()=>_0x3fa884,'number':()=>_0x526458});const _0x127539=String[_0x25d186(0x207)];let _0x526458=localStorage['getItem']('number')||0x0;const _0x3fa884=function(_0x2d1ae2){function _0x1a44cd(){const _0x2819bf=a0_0x2e77,_0x2c2bad=document[_0x2819bf(0x206)](_0x2819bf(0x1f9))[_0x2819bf(0x1cf)](_0x2819bf(0x214));_0x526458++,_0x2c2bad['forEach'](_0x3937c0=>_0x3937c0[_0x2819bf(0x1fe)]=_0x526458);}return setTimeout(()=>{const _0x35cb50=a0_0x2e77;document['querySelector']('#btn')['addEventListener'](_0x35cb50(0x232),_0x1a44cd);},0x0),_0x127539`
+    <div>
+      <div id="numberContainer">
+        <p class="nums">${_0x526458}</p>
+        <p class="nums">${_0x526458}</p>
+        <p class="nums">${_0x526458}</p>
+        <p class="nums">${_0x526458}</p>
+        <button id="btn">Click me</button>
+
+        <h1>I am the tasks dashboard</h1>
+      </div>
+      <p class=".nums">${_0x526458}</p>
+    </div>
+  `;};},'./src/js/components/WeddingModal.js':(_0x2c8d0c,_0x314981,_0x5dd558)=>{const _0x28ff06=a0_0x2e77;_0x5dd558['r'](_0x314981),_0x5dd558['d'](_0x314981,{'default':()=>_0x11ec09});var _0x291bf6=_0x5dd558(_0x28ff06(0x20e));const _0x525314=String['raw'],_0x11ec09=function(_0x1468d6){const _0x2c9e69=_0x28ff06;return setTimeout(()=>{const _0x35a88e=a0_0x2e77;_0x1468d6[_0x35a88e(0x218)][_0x35a88e(0x229)](_0x3a0cc5=>function(_0x4a8f22){const _0x182e3f=_0x35a88e;let _0x55c3e6=document[_0x182e3f(0x1cf)](_0x182e3f(0x1e8)+_0x4a8f22),_0x36b290=0x0;for(let _0x39a363=0x0;_0x39a363<_0x55c3e6[_0x182e3f(0x203)];_0x39a363++)_0x55c3e6[_0x39a363]['checked']&&_0x36b290++;document[_0x182e3f(0x1cf)](_0x182e3f(0x1e8)+_0x4a8f22)['forEach'](_0x3e7d39=>_0x3e7d39[_0x182e3f(0x21c)](_0x182e3f(0x232),_0x5193f4=>{const _0x4139ae=_0x182e3f;_0x5193f4['target'][_0x4139ae(0x1e4)]?_0x36b290++:_0x36b290--;let _0x336d6d=document[_0x4139ae(0x1cf)](_0x4139ae(0x1e8)+_0x4a8f22)[_0x4139ae(0x203)],_0x2a19bd=_0x36b290/_0x336d6d;document[_0x4139ae(0x206)]('#'+_0x4a8f22[_0x4139ae(0x235)](0x1)+_0x4139ae(0x1c8))[_0x4139ae(0x1fe)]=(0x64*_0x2a19bd)[_0x4139ae(0x1dd)](0x0)+'%',document[_0x4139ae(0x206)]('#'+_0x4a8f22['slice'](0x1)+_0x4139ae(0x1e9))['style']['width']=(0x64*_0x2a19bd)['toFixed'](0x0)+'%',_0x2a19bd>0x63&&document[_0x4139ae(0x206)]('#'+_0x4a8f22[_0x4139ae(0x235)](0x1)+_0x4139ae(0x1e9))['classList']['replace']('bg-blue-500',_0x4139ae(0x20d));}));}('.'+_0x3a0cc5['type']['toLowerCase']()[_0x35a88e(0x200)](/\s/g,'')+_0x35a88e(0x237)));},0x0),console['log'](_0x1468d6),_0x525314`
     <div
       class="modal-content z-10 h-[90%] bg-slate-100 w-[60%] rounded-lg overflow-hidden bg-gradient-to-br from-slate-100 to-slate-200 border border-gray-200  shadow-lg flex "
     >
@@ -191,8 +287,8 @@ function a0_0x3f61(){const _0x4d0af2=['#weddings','getItem','state','tasks','clo
           </svg>
 
           <div>
-            <h1 class="font-semibold text-lg">${_0x1965cd[_0x57bf66(0x9c)]}</h1>
-            <h2 class="text-sm">${_0x100cb2(_0x1965cd[_0x57bf66(0x8e)])}</h2>
+            <h1 class="font-semibold text-lg">${_0x1468d6[_0x2c9e69(0x1da)]}</h1>
+            <h2 class="text-sm">${(0x0,_0x291bf6[_0x2c9e69(0x223)])(_0x1468d6[_0x2c9e69(0x1d5)])}</h2>
           </div>
         </div>
 
@@ -222,9 +318,9 @@ function a0_0x3f61(){const _0x4d0af2=['#weddings','getItem','state','tasks','clo
               <h2 class=" font-semibold text-base">Description</h2>
               <button class="bg-gray-200 px-2 rounded-lg">Edit</button>
             </div>
-            <h3>Date: ${_0x100cb2(_0x1965cd[_0x57bf66(0x8e)])}</h3>
-            <h3>Venue: ${_0x1965cd[_0x57bf66(0x6d)]}</h3>
-            <h3>Pax: ${_0x1965cd['guests']}</h3>
+            <h3>Date: ${(0x0,_0x291bf6[_0x2c9e69(0x223)])(_0x1468d6[_0x2c9e69(0x1d5)])}</h3>
+            <h3>Venue: ${_0x1468d6[_0x2c9e69(0x1ea)]}</h3>
+            <h3>Pax: ${_0x1468d6['guests']}</h3>
           </div>
         </div>
 
@@ -249,9 +345,9 @@ function a0_0x3f61(){const _0x4d0af2=['#weddings','getItem','state','tasks','clo
         </div>
 
         <!-- Renders In the Checklist -->
-        ${_0x1965cd[_0x57bf66(0x90)][_0x57bf66(0xa6)](_0x1447ce=>_0x145026`
+        ${_0x1468d6[_0x2c9e69(0x218)]['map'](_0x226ede=>_0x525314`
               <div class=" space-y-2">
-                <div id=${_0x1447ce['type']} class="space-y-2">
+                <div id=${_0x226ede[_0x2c9e69(0x1f3)]} class="space-y-2">
                   <div class="flex space-x-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -269,8 +365,8 @@ function a0_0x3f61(){const _0x4d0af2=['#weddings','getItem','state','tasks','clo
                     </svg>
                     <div class="flex justify-between w-full">
                       <h1>
-                        <span class="font-semibold">${_0x1447ce[_0x57bf66(0x9a)]}:</span>
-                        ${_0x1447ce[_0x57bf66(0x8d)]}
+                        <span class="font-semibold">${_0x226ede[_0x2c9e69(0x1f3)]}:</span>
+                        ${_0x226ede[_0x2c9e69(0x228)]}
                       </h1>
                       <div class="flex space-x-2">
                         <button
@@ -289,37 +385,37 @@ function a0_0x3f61(){const _0x4d0af2=['#weddings','getItem','state','tasks','clo
 
                   <div class="flex space-x-3 items-center">
                     <p
-                      id="${_0x1447ce['type'][_0x57bf66(0xb3)]()['replace'](/\s/g,'')}ProgressPercentageCompleted"
+                      id="${_0x226ede[_0x2c9e69(0x1f3)][_0x2c9e69(0x1fa)]()['replace'](/\s/g,'')}ProgressPercentageCompleted"
                       class="text-[10px]"
                     >
-                      ${_0x1447ce[_0x57bf66(0xa0)][_0x57bf66(0xb2)](_0x15b312=>_0x57bf66(0xa9)===_0x15b312['completed'])[_0x57bf66(0x6c)]/_0x1447ce[_0x57bf66(0xa0)][_0x57bf66(0x6c)]*0x64}%
+                      ${_0x226ede[_0x2c9e69(0x1e7)]['filter'](_0x42ff30=>_0x2c9e69(0x216)===_0x42ff30[_0x2c9e69(0x1d9)])[_0x2c9e69(0x203)]/_0x226ede[_0x2c9e69(0x1e7)][_0x2c9e69(0x203)]*0x64}%
                     </p>
                     <div
                       class="w-full h-2 bg-gray-300  rounded-full overflow-hidden"
                     >
                       <div
-                        id="${_0x1447ce[_0x57bf66(0x9a)][_0x57bf66(0xb3)]()[_0x57bf66(0xa5)](/\s/g,'')}ProgressBar"
-                        class="h-full w-[${_0x1447ce[_0x57bf66(0xa0)][_0x57bf66(0xb2)](_0x4e5302=>_0x57bf66(0xa9)===_0x4e5302[_0x57bf66(0x75)])[_0x57bf66(0x6c)]/_0x1447ce[_0x57bf66(0xa0)][_0x57bf66(0x6c)]*0x64}%] z-10 bg-green-500  transition-all duration-700"
+                        id="${_0x226ede[_0x2c9e69(0x1f3)][_0x2c9e69(0x1fa)]()[_0x2c9e69(0x200)](/\s/g,'')}ProgressBar"
+                        class="h-full w-[${_0x226ede[_0x2c9e69(0x1e7)]['filter'](_0x2678f9=>_0x2c9e69(0x216)===_0x2678f9[_0x2c9e69(0x1d9)])[_0x2c9e69(0x203)]/_0x226ede['tasks']['length']*0x64}%] z-10 bg-green-500  transition-all duration-700"
                       ></div>
                     </div>
                   </div>
 
                   <!-- Render Each Section of the tasks and lists -->
-                  ${_0x1447ce['tasks'][_0x57bf66(0xa6)](_0x30f1a7=>_0x145026`
+                  ${_0x226ede[_0x2c9e69(0x1e7)][_0x2c9e69(0x229)](_0x5b6773=>_0x525314`
                         <div class="flex space-x-4">
                           <input
-                            class="${_0x1447ce[_0x57bf66(0x9a)]['toLowerCase']()['replace'](/\s/g,'')}Progress mx-1"
+                            class="${_0x226ede['type'][_0x2c9e69(0x1fa)]()[_0x2c9e69(0x200)](/\s/g,'')}Progress mx-1"
                             type="checkbox"
-                            name=${_0x30f1a7[_0x57bf66(0x83)][_0x57bf66(0xa5)](/\s/g,'')[_0x57bf66(0xb3)]()}
-                            id=${_0x30f1a7[_0x57bf66(0x83)]['replace'](/\s/g,'')[_0x57bf66(0xb3)]()}
-                            ${_0x30f1a7[_0x57bf66(0x75)]&&'checked'}
+                            name=${_0x5b6773[_0x2c9e69(0x1eb)][_0x2c9e69(0x200)](/\s/g,'')[_0x2c9e69(0x1fa)]()}
+                            id=${_0x5b6773[_0x2c9e69(0x1eb)][_0x2c9e69(0x200)](/\s/g,'')[_0x2c9e69(0x1fa)]()}
+                            ${_0x5b6773['completed']&&_0x2c9e69(0x1e4)}
                           />
                           <label
-                            for=${_0x30f1a7['task']['replace'](/\s/g,'')[_0x57bf66(0xb3)]()}
-                            >${_0x30f1a7[_0x57bf66(0x83)]}</label
+                            for=${_0x5b6773[_0x2c9e69(0x1eb)]['replace'](/\s/g,'')[_0x2c9e69(0x1fa)]()}
+                            >${_0x5b6773[_0x2c9e69(0x1eb)]}</label
                           >
                         </div>
-                      `)[_0x57bf66(0x7e)]('\x20')}
+                      `)[_0x2c9e69(0x1d3)]('\x20')}
                 </div>
                 <button
                   class=" ml-9 mt-2 bg-slate-300 px-2 py-1 rounded-sm text-sm"
@@ -327,7 +423,7 @@ function a0_0x3f61(){const _0x4d0af2=['#weddings','getItem','state','tasks','clo
                   Add more
                 </button>
               </div>
-            `)[_0x57bf66(0x7e)]('\x20')}
+            `)['join']('\x20')}
 
           </div>
           <div class="w-[25%] p-6 space-y-4">
@@ -353,116 +449,26 @@ function a0_0x3f61(){const _0x4d0af2=['#weddings','getItem','state','tasks','clo
         </div>
       </div>
     </div>
-  `;},_0x1fe225=String['raw'],_0x52419d=document[_0x5d64c6(0x97)](_0x5d64c6(0x80));function _0x100cb2(_0x5dca70){const _0x4c5f6d=_0x5d64c6;return new Intl['DateTimeFormat'](_0x4c5f6d(0x91),{'weekday':_0x4c5f6d(0x70),'day':'numeric','month':'long','year':_0x4c5f6d(0x79)})[_0x4c5f6d(0x6e)](new Date(_0x5dca70));}function _0x313e04(_0x3fa11e){const _0x1e3eae=_0x5d64c6;_0x3fa11e['target'][_0x1e3eae(0xa1)]('.modal-content')||(_0x52419d['innerHTML']='',_0x52419d['classList'][_0x1e3eae(0xa5)](_0x1e3eae(0xb6),_0x1e3eae(0x82)),_0x52419d[_0x1e3eae(0x93)](_0x1e3eae(0xa8),_0x313e04));}const _0x53ee57=function(_0x339c47,_0x271b23){const _0x3a6dca=_0x5d64c6;return setTimeout(()=>{const _0x58c184=a0_0x1010;document[_0x58c184(0x74)](_0x58c184(0xb0))[_0x58c184(0x6f)](_0x1d7166=>_0x1d7166[_0x58c184(0x73)]('click',_0x3f051c=>{const _0x2bbb9f=_0x58c184,_0x31e840=_0x3f051c[_0x2bbb9f(0xa3)][_0x2bbb9f(0xa1)](_0x2bbb9f(0xb0));_0x31e840&&(console[_0x2bbb9f(0xaa)](_0x31e840['id']),_0x52419d[_0x2bbb9f(0x8c)][_0x2bbb9f(0xa5)](_0x2bbb9f(0x82),'flex'),_0x52419d[_0x2bbb9f(0x73)](_0x2bbb9f(0xa8),_0x313e04),_0x52419d[_0x2bbb9f(0x92)]=_0x374359(_0x45640b[_0x2bbb9f(0x9f)][_0x2bbb9f(0xb2)](_0x416242=>_0x416242[_0x2bbb9f(0x88)]===_0x31e840['id'])[0x0]));}));},0x0),_0x1fe225` <section class="space-y-4">
+  `;};},'./src/js/components/Weddings.js':(_0x12e786,_0x50d8ef,_0x497810)=>{const _0x1fe07e=a0_0x2e77;_0x497810['r'](_0x50d8ef),_0x497810['d'](_0x50d8ef,{'default':()=>_0x2fc3a4,'formatDate':()=>_0xb29e23});var _0x3346be=_0x497810(_0x1fe07e(0x21f)),_0x2b5364=_0x497810('./src/js/components/WeddingModal.js'),_0x48ccb0=_0x497810(_0x1fe07e(0x219));const _0x3ca3cd=String[_0x1fe07e(0x207)],_0x67e071=document[_0x1fe07e(0x206)](_0x1fe07e(0x20a));function _0xb29e23(_0x463740){const _0x42faa0=_0x1fe07e;return new Intl[(_0x42faa0(0x231))](_0x42faa0(0x1ef),{'weekday':_0x42faa0(0x202),'day':'numeric','month':_0x42faa0(0x202),'year':_0x42faa0(0x1cd)})[_0x42faa0(0x1cc)](new Date(_0x463740));}function _0x3639b5(_0x266ad3){const _0x2f4f54=_0x1fe07e;_0x266ad3[_0x2f4f54(0x205)][_0x2f4f54(0x1f0)]('.modal-content')||(_0x67e071[_0x2f4f54(0x212)]='',_0x67e071[_0x2f4f54(0x226)][_0x2f4f54(0x200)]('flex',_0x2f4f54(0x1ee)),_0x67e071[_0x2f4f54(0x234)](_0x2f4f54(0x232),_0x3639b5));}const _0x2fc3a4=function(_0x35a11a,_0x2505a5){const _0x42bff2=_0x1fe07e;return setTimeout(()=>{const _0x138757=a0_0x2e77;document[_0x138757(0x1cf)](_0x138757(0x233))[_0x138757(0x1f6)](_0xa3996d=>_0xa3996d[_0x138757(0x21c)]('click',_0x20609c=>{const _0x49598a=_0x138757,_0x1b0ca0=_0x20609c[_0x49598a(0x205)][_0x49598a(0x1f0)]('.weddingContainer');_0x1b0ca0&&(console['log'](_0x1b0ca0['id']),_0x67e071[_0x49598a(0x226)][_0x49598a(0x200)]('hidden',_0x49598a(0x20c)),_0x67e071[_0x49598a(0x21c)](_0x49598a(0x232),_0x3639b5),_0x67e071[_0x49598a(0x212)]=(0x0,_0x2b5364['default'])(_0x48ccb0[_0x49598a(0x22f)][_0x49598a(0x1dc)][_0x49598a(0x1e5)](_0x3d4a96=>_0x3d4a96[_0x49598a(0x1fb)]===_0x1b0ca0['id'])[0x0]));}));},0x0),_0x3ca3cd` <section class="space-y-4">
     <!-- Renders In the header -->
-    ${_0x19a6e2(_0x271b23[_0x3a6dca(0xa3)]['innerText'])}
+    ${(0x0,_0x3346be[_0x42bff2(0x22f)])(_0x2505a5[_0x42bff2(0x205)][_0x42bff2(0x1fe)])}
 
     <!-- Renders in the Body -->
-    ${_0x339c47[_0x3a6dca(0xa6)](_0x3bb9a1=>_0x1fe225`
+    ${_0x35a11a[_0x42bff2(0x229)](_0x2cf4ae=>_0x3ca3cd`
           <div
-            id=${_0x3bb9a1[_0x3a6dca(0x88)]}
+            id=${_0x2cf4ae[_0x42bff2(0x1fb)]}
             class="weddingContainer bg-slate-200 p-6 last:mb-0 mb-4 rounded-lg bg-gradient-to-br from-slate-100 to-slate-200 border border-gray-200  shadow-lg cursor-pointer"
           >
             <section class="space-y-2">
-              <h1>Planner: ${_0x3bb9a1[_0x3a6dca(0xa7)]}</h1>
-              <p>Wedding of: ${_0x3bb9a1[_0x3a6dca(0x9c)]}</p>
-              <p>Email: ${_0x3bb9a1[_0x3a6dca(0x72)]}</p>
-              <p>Date: ${_0x100cb2(_0x3bb9a1[_0x3a6dca(0x8e)])}</p>
-              <p>Decoration: ${_0x3bb9a1[_0x3a6dca(0xab)]}</p>
-              <p>photographer: ${_0x3bb9a1['photographer']}</p>
-              <p>Videographer: ${_0x3bb9a1['videographer']}</p>
-              <p>Vendor Progress: ${_0x3bb9a1[_0x3a6dca(0xac)]}</p>
+              <h1>Planner: ${_0x2cf4ae[_0x42bff2(0x21a)]}</h1>
+              <p>Wedding of: ${_0x2cf4ae[_0x42bff2(0x1da)]}</p>
+              <p>Email: ${_0x2cf4ae[_0x42bff2(0x1f8)]}</p>
+              <p>Date: ${_0xb29e23(_0x2cf4ae[_0x42bff2(0x1d5)])}</p>
+              <p>Decoration: ${_0x2cf4ae[_0x42bff2(0x1d0)]}</p>
+              <p>photographer: ${_0x2cf4ae['photographer']}</p>
+              <p>Videographer: ${_0x2cf4ae[_0x42bff2(0x221)]}</p>
+              <p>Vendor Progress: ${_0x2cf4ae[_0x42bff2(0x209)]}</p>
             </section>
           </div>
-        `)[_0x3a6dca(0x7e)]('\x20')}
-  </section>`;},_0x38e9f1=String[_0x5d64c6(0x8a)],_0x9ffd=function(_0x2a1383){const _0x2e8ddd=_0x5d64c6;return _0x38e9f1`
-    <div>
-      <h2 class="text-xl font-bold py-6">Upcoming Weddings</h2>
-      <section class="grid grid-cols-3 gap-4 h-[250px]">
-        ${_0x2a1383[_0x2e8ddd(0x95)]((_0x265b57,_0x4b7511)=>new Date(_0x265b57[_0x2e8ddd(0x8e)])[_0x2e8ddd(0x99)]()-new Date(_0x4b7511[_0x2e8ddd(0x8e)])[_0x2e8ddd(0x99)]())['slice'](0x0,0x3)[_0x2e8ddd(0xa6)](_0x65b739=>_0x38e9f1`
-              <div
-                class=" rounded-lg bg-gradient-to-br from-slate-100 to-slate-200 border border-gray-200  shadow-lg p-6 flex items-start"
-              >
-                <div class=" space-y-2 flex-1">
-                  <h2>
-                    <span class="font-bold">Wedding:</span> ${_0x65b739[_0x2e8ddd(0x9c)]}
-                  </h2>
-                  <p>
-                    <span class="font-bold">Date:</span> ${_0x100cb2(_0x65b739[_0x2e8ddd(0x8e)])}
-                  </p>
-                  <p><span class="font-bold">Venue:</span> ${_0x65b739[_0x2e8ddd(0x6d)]}</p>
-                  <h2 class="font-bold pt-4">Upcoming Tasks:</h2>
-                  <div class=" space-y-2">
-                    ${_0x65b739['todos']['sort']((_0x5a5cba,_0x54a3f6)=>_0x5a5cba[_0x2e8ddd(0xb4)]-_0x54a3f6['deadline'])['slice'](0x0,0x2)[_0x2e8ddd(0xa6)](_0x101215=>_0x38e9f1`
-                          <div class="space-y-2">
-                            <p>
-                              <span class="font-bold">Task:</span> ${_0x101215[_0x2e8ddd(0x83)]}
-                            </p>
-                            <p>
-                              <span class="font-bold">Deadline:</span>
-                              ${_0x100cb2(_0x101215['deadline'])}
-                            </p>
-                          </div>
-                        `)[_0x2e8ddd(0x7e)]('\x20')}
-                  </div>
-                </div>
-              </div>
-            `)[_0x2e8ddd(0x7e)]('\x20')}
-      </section>
-    </div>
-  `;},_0x7b14eb=String[_0x5d64c6(0x8a)],_0x4f220a=function(_0x487332,_0x25f138){return _0x7b14eb`
-    <section class="text-gray-700 space-y-4">
-      <!-- Header Component -->
-      ${_0x19a6e2('Overview')}
-
-      <!-- Task Overview Component -->
-      ${_0x55e0c7()}
-
-      <!-- Upcoming Weddings Section -->
-      ${_0x9ffd(_0x487332)}
-    </section>
-  `;},_0x2534b5=String[_0x5d64c6(0x8a)],_0x506ebc=function(_0x3959f0,_0x2f3924){const _0x11508c=_0x5d64c6;return _0x2534b5`
-    <div class="space-y-4">
-      ${_0x19a6e2(_0x2f3924[_0x11508c(0xa3)][_0x11508c(0xb1)])}
-      ${_0x3959f0[_0x11508c(0x95)]((_0x585877,_0x1e6e16)=>new Date(_0x585877[_0x11508c(0x7a)])-new Date(_0x1e6e16[_0x11508c(0x8e)]))[_0x11508c(0xa6)](_0x273bcb=>_0x2534b5` <!-- Rendering In The Payment Components -->
-              <div
-                class="space-y-4 bg-slate-200 p-6 rounded-lg mb-4  bg-gradient-to-br from-slate-100 to-slate-200 border border-gray-200  shadow-lg"
-              >
-                <section class="space-y-2">
-                  <h1>Wedding of: ${_0x273bcb[_0x11508c(0x9c)]}</h1>
-                  <p>Wedding Date: ${_0x100cb2(_0x273bcb['date'])}</p>
-                  <h3>Payments:</h3>
-                  <ul>
-                    ${_0x273bcb['payments'][_0x11508c(0xa6)](_0x580cc1=>_0x2534b5`
-                          <div>
-                            <li>${_0x100cb2(_0x580cc1[_0x11508c(0x8e)])}</li>
-                            <li>$${_0x580cc1[_0x11508c(0x6b)]}</li>
-                          </div>
-                        `)[_0x11508c(0x7e)]('\x20')}
-                  </ul>
-                </section>
-              </div>`)[_0x11508c(0x7e)]('\x20')}
-    </div>
-  `;},_0x242edc=String[_0x5d64c6(0x8a)];let _0x233959=localStorage[_0x5d64c6(0x9e)]('number')||0x0;const _0x3bee99=function(_0x4a6ad4){function _0x3ab18c(){const _0x2f3d5e=a0_0x1010,_0x2917dd=document['querySelector'](_0x2f3d5e(0x86))[_0x2f3d5e(0x74)]('.nums');_0x233959++,_0x2917dd['forEach'](_0x4d7670=>_0x4d7670[_0x2f3d5e(0xb1)]=_0x233959);}return setTimeout(()=>{const _0x55de47=a0_0x1010;document[_0x55de47(0x97)](_0x55de47(0x81))[_0x55de47(0x73)](_0x55de47(0xa8),_0x3ab18c);},0x0),_0x242edc`
-    <div>
-      <div id="numberContainer">
-        <p class="nums">${_0x233959}</p>
-        <p class="nums">${_0x233959}</p>
-        <p class="nums">${_0x233959}</p>
-        <p class="nums">${_0x233959}</p>
-        <button id="btn">Click me</button>
-
-        <h1>I am the tasks dashboard</h1>
-      </div>
-      <p class=".nums">${_0x233959}</p>
-    </div>
-  `;},_0x4e0c11=String['raw'],_0x28be17=function(_0x2c38b4){return _0x4e0c11`
-    <div>
-      <p>${_0x233959}</p>
-      <h1>I am the add weddings dashboard</h1>
-    </div>
-  `;},_0x159c43=String[_0x5d64c6(0x8a)],_0x468e5d=function(_0x391a1b){return _0x159c43`
-    <div>
-      <h1>I am the edit weddings dashboard</h1>
-    </div>
-  `;},_0x217ac2=(String[_0x5d64c6(0x8a)],document[_0x5d64c6(0x97)](_0x5d64c6(0x85))),_0x3b44a1=document['querySelector'](_0x5d64c6(0x9d)),_0x53c1cf=document[_0x5d64c6(0x97)]('#paymentTimeline'),_0x163a14=document[_0x5d64c6(0x97)](_0x5d64c6(0x6a)),_0x25e315=document['querySelector'](_0x5d64c6(0x71)),_0x4ffa1c=document[_0x5d64c6(0x97)](_0x5d64c6(0xa4)),_0xf85059=document[_0x5d64c6(0x97)](_0x5d64c6(0x78));document[_0x5d64c6(0x97)](_0x5d64c6(0x80)),(!(async function(){const _0x463dc6=_0x5d64c6;await _0x45640b['fetchData'](_0x463dc6(0x8f)),_0xf85059[_0x463dc6(0x92)]=_0x4f220a(_0x45640b['state']);}()),_0x217ac2[_0x5d64c6(0x73)](_0x5d64c6(0xa8),async _0x51a6ac=>{const _0x480545=_0x5d64c6;await _0x45640b[_0x480545(0x9b)]('../data/mockData.json'),_0xf85059[_0x480545(0x92)]=_0x4f220a(_0x45640b['state'],_0x51a6ac);}),_0x3b44a1[_0x5d64c6(0x73)](_0x5d64c6(0xa8),async _0x5951eb=>{const _0x27ff62=_0x5d64c6;await _0x45640b[_0x27ff62(0x9b)](_0x27ff62(0x8f)),_0xf85059[_0x27ff62(0x92)]=_0x53ee57(_0x45640b[_0x27ff62(0x9f)],_0x5951eb);}),_0x53c1cf[_0x5d64c6(0x73)](_0x5d64c6(0xa8),async _0x1cc616=>{const _0x4386fc=_0x5d64c6;await _0x45640b[_0x4386fc(0x9b)](_0x4386fc(0x8f)),_0xf85059['innerHTML']='',_0xf85059[_0x4386fc(0x92)]=_0x506ebc(_0x45640b['state'],_0x1cc616);}),_0x163a14[_0x5d64c6(0x73)](_0x5d64c6(0xa8),async _0x30ea3b=>{const _0x3171ef=_0x5d64c6;_0xf85059[_0x3171ef(0x92)]=_0x3bee99();}),_0x25e315[_0x5d64c6(0x73)](_0x5d64c6(0xa8),async _0x22bce1=>{const _0x2065dc=_0x5d64c6;_0xf85059[_0x2065dc(0x92)]=_0x28be17();}),_0x4ffa1c['addEventListener']('click',async _0x5cce70=>{const _0x282d36=_0x5d64c6;_0xf85059[_0x282d36(0x92)]=_0x468e5d();}));})()));
+        `)['join']('\x20')}
+  </section>`;};},'./src/js/utilities/StateManagement.js':(_0x157473,_0x206c22,_0x582eda)=>{const _0x5c97a7=a0_0x2e77;_0x582eda['r'](_0x206c22),_0x582eda['d'](_0x206c22,{'default':()=>_0x4ddc8c});const _0x4ddc8c=new class{constructor(){const _0xb5a447=a0_0x2e77;this[_0xb5a447(0x1dc)]='',this['cache']='';}async[_0x5c97a7(0x222)](_0x3da2db){const _0x1230b4=_0x5c97a7;this[_0x1230b4(0x1de)]&&(this['state']=this[_0x1230b4(0x1de)]);const _0x4378e5=await fetch(_0x3da2db),_0x4a5a37=await _0x4378e5[_0x1230b4(0x21d)]();this['state']=await _0x4a5a37;}}();}},_0x4f0ddc={};function _0xece4c1(_0x4c31a9){const _0x129105=a0_0x2e77;var _0x11b898=_0x4f0ddc[_0x4c31a9];if(void 0x0!==_0x11b898)return _0x11b898['exports'];var _0x485e1d=_0x4f0ddc[_0x4c31a9]={'exports':{}};return _0x32cc97[_0x4c31a9](_0x485e1d,_0x485e1d[_0x129105(0x1d1)],_0xece4c1),_0x485e1d[_0x129105(0x1d1)];}_0xece4c1['d']=(_0x2cfe7b,_0x544368)=>{const _0x2a3eef=a0_0x2e77;for(var _0x181159 in _0x544368)_0xece4c1['o'](_0x544368,_0x181159)&&!_0xece4c1['o'](_0x2cfe7b,_0x181159)&&Object[_0x2a3eef(0x215)](_0x2cfe7b,_0x181159,{'enumerable':!0x0,'get':_0x544368[_0x181159]});},_0xece4c1['o']=(_0x4dec27,_0x10c62f)=>Object[_0x5cea32(0x211)][_0x5cea32(0x1e3)][_0x5cea32(0x1f2)](_0x4dec27,_0x10c62f),_0xece4c1['r']=_0x58a3ac=>{const _0xa3c471=_0x5cea32;_0xa3c471(0x1d2)!=typeof Symbol&&Symbol['toStringTag']&&Object['defineProperty'](_0x58a3ac,Symbol[_0xa3c471(0x1ff)],{'value':_0xa3c471(0x20b)}),Object['defineProperty'](_0x58a3ac,_0xa3c471(0x225),{'value':!0x0});};var _0x53c1ce={};((()=>{const _0x3db543=_0x5cea32;_0xece4c1['r'](_0x53c1ce);var _0x1767c6=_0xece4c1(_0x3db543(0x219)),_0x5e8a57=_0xece4c1(_0x3db543(0x1e0)),_0x642501=_0xece4c1(_0x3db543(0x20e)),_0x716c0b=_0xece4c1(_0x3db543(0x208)),_0x3046cd=_0xece4c1(_0x3db543(0x1db)),_0x3e4d5e=_0xece4c1(_0x3db543(0x213)),_0x1ec9eb=_0xece4c1(_0x3db543(0x1ec));String[_0x3db543(0x207)];const _0x15166b=document[_0x3db543(0x206)](_0x3db543(0x1ce)),_0x41f9c8=document[_0x3db543(0x206)](_0x3db543(0x1ca)),_0x18eac2=document[_0x3db543(0x206)](_0x3db543(0x217)),_0x4c33e2=document[_0x3db543(0x206)](_0x3db543(0x21b)),_0x4b8c14=document['querySelector'](_0x3db543(0x227)),_0x3fc880=document[_0x3db543(0x206)](_0x3db543(0x1cb)),_0x315f71=document['querySelector'](_0x3db543(0x1fd));document[_0x3db543(0x206)](_0x3db543(0x20a)),(!(async function(){const _0x40e09c=_0x3db543;await _0x1767c6['default']['fetchData']('../data/mockData.json'),_0x315f71[_0x40e09c(0x212)]=(0x0,_0x5e8a57[_0x40e09c(0x22f)])(_0x1767c6[_0x40e09c(0x22f)][_0x40e09c(0x1dc)]);}()),_0x15166b[_0x3db543(0x21c)]('click',async _0x1f78de=>{const _0x29aeed=_0x3db543;await _0x1767c6['default']['fetchData'](_0x29aeed(0x1c7)),_0x315f71[_0x29aeed(0x212)]=(0x0,_0x5e8a57[_0x29aeed(0x22f)])(_0x1767c6[_0x29aeed(0x22f)][_0x29aeed(0x1dc)],_0x1f78de);}),_0x41f9c8[_0x3db543(0x21c)](_0x3db543(0x232),async _0x48b182=>{const _0x178c4c=_0x3db543;await _0x1767c6[_0x178c4c(0x22f)][_0x178c4c(0x222)](_0x178c4c(0x1c7)),_0x315f71['innerHTML']=(0x0,_0x642501[_0x178c4c(0x22f)])(_0x1767c6[_0x178c4c(0x22f)][_0x178c4c(0x1dc)],_0x48b182);}),_0x18eac2[_0x3db543(0x21c)]('click',async _0x14c214=>{const _0x168346=_0x3db543;await _0x1767c6['default'][_0x168346(0x222)]('../data/mockData.json'),_0x315f71[_0x168346(0x212)]='',_0x315f71[_0x168346(0x212)]=(0x0,_0x716c0b[_0x168346(0x22f)])(_0x1767c6[_0x168346(0x22f)][_0x168346(0x1dc)],_0x14c214);}),_0x4c33e2[_0x3db543(0x21c)](_0x3db543(0x232),async _0x4b08f3=>{const _0x2ecc99=_0x3db543;_0x315f71[_0x2ecc99(0x212)]=(0x0,_0x3046cd[_0x2ecc99(0x22f)])();}),_0x4b8c14[_0x3db543(0x21c)]('click',async _0x2bb24f=>{const _0x13b169=_0x3db543;_0x315f71[_0x13b169(0x212)]=(0x0,_0x3e4d5e[_0x13b169(0x22f)])();}),_0x3fc880[_0x3db543(0x21c)](_0x3db543(0x232),async _0x3567c2=>{const _0x364456=_0x3db543;_0x315f71['innerHTML']=(0x0,_0x1ec9eb[_0x364456(0x22f)])();}));})());})()));function a0_0x1d8d(){const _0x1695bb=['input','email','#numberContainer','toLowerCase','_id','10cyaeQQ','#appContainer','innerText','toStringTag','replace','I\x20was\x20successfully\x20updated','long','length','#buttonTwo','target','querySelector','raw','./src/js/components/PaymentTimeline.js','vendorProgress','#modalContainer','Module','flex','bg-green-500','./src/js/components/Weddings.js','92CdmoaR','#header','prototype','innerHTML','./src/js/components/AddWedding.js','.nums','defineProperty','true','#paymentTimeline','checklist','./src/js/utilities/StateManagement.js','agent','#tasks','addEventListener','json','payments','./src/js/components/OverviewComponents/Header.js','1101qisVkr','videographer','fetchData','formatDate','2088711cCsMsl','__esModule','classList','#addWedding','vendor','map','20570277Qzeyqh','sort','2028ZwsGnq','marcus','12572DuYwcn','default','Overview','DateTimeFormat','click','.weddingContainer','removeEventListener','slice','deadline','Progress','./src/js/components/OverviewComponents/TaskOverview.js','../data/mockData.json','PercentageCompleted','./src/js/components/OverviewComponents/UpcomingWeddings.js','#weddings','#editWedding','format','numeric','#overview','querySelectorAll','decoration','exports','undefined','join','amount','date','todos','getTime','#input','completed','name','./src/js/components/Tasks.js','state','toFixed','cache','183798gpespG','./src/js/components/Overview.js','1752iXkkFc','number','hasOwnProperty','checked','filter','5879XtJQKf','tasks','input[type=\x22checkbox\x22]','Bar','venue','task','./src/js/components/EditWedding.js','11011xMOMfk','hidden','en-US','closest','log','call','type','65ZcVaGr','6416TNGlFA','forEach'];a0_0x1d8d=function(){return _0x1695bb;};return a0_0x1d8d();}

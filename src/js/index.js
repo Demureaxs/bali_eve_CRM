@@ -38,6 +38,7 @@ const modalContainer = document.querySelector('#modalContainer');
 async function initialState() {
   // await allWeddings.fetchData('/bali_eve_CRM/data/mockData.json');
   await allWeddings.fetchData('../data/mockData.json');
+
   appContainer.innerHTML = OverviewDashboard(allWeddings.state);
 }
 // calls the Initial State function.
